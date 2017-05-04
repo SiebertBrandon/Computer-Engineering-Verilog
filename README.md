@@ -15,6 +15,6 @@ Lab3: Hazard Detection for a LEGv8 CPU (To be added to this repo)
 ----
 
 ----
-Lab2: Verilog Cache Simulator (To be added to this repo)
+Lab4: Verilog Cache Simulator (To be added to this repo)
 ----
 Implement the same cache as was in Lab 1 using Verilog. Choose the best cache structure found in Lab 1 and implement it in modules. Read from the trace files in your testbench
