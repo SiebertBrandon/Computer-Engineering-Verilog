@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<wave_config>
+   <wave_state>
+   </wave_state>
+   <db_ref_list>
+      <db_ref path="H:/363-ComputerEngineeringLab1/Lab4/CPU/MemBufferTest_isim_beh.wdb" id="1" type="auto">
+         <top_modules>
+            <top_module name="MemBufferTest" />
+            <top_module name="glbl" />
+         </top_modules>
+      </db_ref>
+   </db_ref_list>
+   <WVObjectSize size="15" />
+   <wvobject fp_name="/MemBufferTest/clock" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">clock</obj_property>
+      <obj_property name="ObjectShortName">clock</obj_property>
+   </wvobject>
+   <wvobject fp_name="/MemBufferTest/instage1" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">instage1[63:0]</obj_property>
+      <obj_property name="ObjectShortName">instage1[63:0]</obj_property>
+      <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/MemBufferTest/instage2" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">instage2[63:0]</obj_property>
+      <obj_property name="ObjectShortName">instage2[63:0]</obj_property>
+      <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/MemBufferTest/instage3" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">instage3[63:0]</obj_property>
+      <obj_property name="ObjectShortName">instage3[63:0]</obj_property>
+      <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/MemBufferTest/instage4" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">instage4[63:0]</obj_property>
+      <obj_property name="ObjectShortName">instage4[63:0]</obj_property>
+      <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/MemBufferTest/instage5" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">instage5[63:0]</obj_property>
+      <obj_property name="ObjectShortName">instage5[63:0]</obj_property>
+      <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/MemBufferTest/instage6" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">instage6[63:0]</obj_property>
+      <obj_property name="ObjectShortName">instage6[63:0]</obj_property>
+      <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/MemBufferTest/instage7" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">instage7[63:0]</obj_property>
+      <obj_property name="ObjectShortName">instage7[63:0]</obj_property>
+      <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/MemBufferTest/instage8" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">instage8[63:0]</obj_property>
+      <obj_property name="ObjectShortName">instage8[63:0]</obj_property>
+      <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/MemBufferTest/instage9" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">instage9[63:0]</obj_property>
+      <obj_property name="ObjectShortName">instage9[63:0]</obj_property>
+      <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/MemBufferTest/instage10" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">instage10[63:0]</obj_property>
+      <obj_property name="ObjectShortName">instage10[63:0]</obj_property>
+      <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/MemBufferTest/uut/stage1DeMux/in" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">in[63:0]</obj_property>
+      <obj_property name="ObjectShortName">in[63:0]</obj_property>
+      <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/MemBufferTest/uut/stage1DeMux/selection" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">selection</obj_property>
+      <obj_property name="ObjectShortName">selection</obj_property>
+   </wvobject>
+   <wvobject fp_name="/MemBufferTest/uut/stage1DeMux/out1" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">out1[63:0]</obj_property>
+      <obj_property name="ObjectShortName">out1[63:0]</obj_property>
+      <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/MemBufferTest/uut/stage1DeMux/out2" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">out2[63:0]</obj_property>
+      <obj_property name="ObjectShortName">out2[63:0]</obj_property>
+      <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+   </wvobject>
+</wave_config>

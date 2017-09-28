@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- IMPORTANT: This is an internal file that has been generated
+     by the Xilinx ISE software.  Any direct editing or
+     changes made to this file may result in unpredictable
+     behavior or data corruption.  It is strongly advised that
+     users do not edit the contents of this file. -->
+<messages>
+<msg type="warning" file="HDLCompiler" num="817" delta="new" >"\\lions.tcnj.edu\public\homest\sieberb1\363-ComputerEngineeringLab1\Lab4\CPU\CPU_Modules.v" Line 249: System task <arg fmt="%s" index="1">monitor</arg> ignored for synthesis
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="1127" delta="new" >"\\lions.tcnj.edu\public\homest\sieberb1\363-ComputerEngineeringLab1\Lab4\CPU\CPU_Modules.v" Line 143: Assignment to <arg fmt="%s" index="1">alu_to_z</arg> ignored, since the identifier is never used
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="1127" delta="new" >"\\lions.tcnj.edu\public\homest\sieberb1\363-ComputerEngineeringLab1\Lab4\CPU\CPU_Modules.v" Line 147: Assignment to <arg fmt="%s" index="1">alu_to_z</arg> ignored, since the identifier is never used
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="91" delta="new" >"\\lions.tcnj.edu\public\homest\sieberb1\363-ComputerEngineeringLab1\Lab4\CPU\CPU_Modules.v" Line 162: Signal &lt;<arg fmt="%s" index="1">mainALU_Z</arg>&gt; missing in the sensitivity list is added for synthesis purposes. HDL and post-synthesis simulations may differ as a result.
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="91" delta="new" >"\\lions.tcnj.edu\public\homest\sieberb1\363-ComputerEngineeringLab1\Lab4\CPU\CPU_Modules.v" Line 163: Signal &lt;<arg fmt="%s" index="1">pcin</arg>&gt; missing in the sensitivity list is added for synthesis purposes. HDL and post-synthesis simulations may differ as a result.
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="91" delta="new" >"\\lions.tcnj.edu\public\homest\sieberb1\363-ComputerEngineeringLab1\Lab4\CPU\CPU_Modules.v" Line 166: Signal &lt;<arg fmt="%s" index="1">pcin</arg>&gt; missing in the sensitivity list is added for synthesis purposes. HDL and post-synthesis simulations may differ as a result.
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="91" delta="new" >"\\lions.tcnj.edu\public\homest\sieberb1\363-ComputerEngineeringLab1\Lab4\CPU\CPU_Modules.v" Line 179: Signal &lt;<arg fmt="%s" index="1">Ubranch</arg>&gt; missing in the sensitivity list is added for synthesis purposes. HDL and post-synthesis simulations may differ as a result.
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="91" delta="new" >"\\lions.tcnj.edu\public\homest\sieberb1\363-ComputerEngineeringLab1\Lab4\CPU\CPU_Modules.v" Line 180: Signal &lt;<arg fmt="%s" index="1">pcin</arg>&gt; missing in the sensitivity list is added for synthesis purposes. HDL and post-synthesis simulations may differ as a result.
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="91" delta="new" >"\\lions.tcnj.edu\public\homest\sieberb1\363-ComputerEngineeringLab1\Lab4\CPU\CPU_Modules.v" Line 182: Signal &lt;<arg fmt="%s" index="1">Branch</arg>&gt; missing in the sensitivity list is added for synthesis purposes. HDL and post-synthesis simulations may differ as a result.
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="91" delta="new" >"\\lions.tcnj.edu\public\homest\sieberb1\363-ComputerEngineeringLab1\Lab4\CPU\CPU_Modules.v" Line 183: Signal &lt;<arg fmt="%s" index="1">reg2data</arg>&gt; missing in the sensitivity list is added for synthesis purposes. HDL and post-synthesis simulations may differ as a result.
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="91" delta="new" >"\\lions.tcnj.edu\public\homest\sieberb1\363-ComputerEngineeringLab1\Lab4\CPU\CPU_Modules.v" Line 184: Signal &lt;<arg fmt="%s" index="1">ALUop</arg>&gt; missing in the sensitivity list is added for synthesis purposes. HDL and post-synthesis simulations may differ as a result.
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="91" delta="new" >"\\lions.tcnj.edu\public\homest\sieberb1\363-ComputerEngineeringLab1\Lab4\CPU\CPU_Modules.v" Line 186: Signal &lt;<arg fmt="%s" index="1">MemWrite</arg>&gt; missing in the sensitivity list is added for synthesis purposes. HDL and post-synthesis simulations may differ as a result.
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="91" delta="new" >"\\lions.tcnj.edu\public\homest\sieberb1\363-ComputerEngineeringLab1\Lab4\CPU\CPU_Modules.v" Line 187: Signal &lt;<arg fmt="%s" index="1">reg1data</arg>&gt; missing in the sensitivity list is added for synthesis purposes. HDL and post-synthesis simulations may differ as a result.
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="91" delta="new" >"\\lions.tcnj.edu\public\homest\sieberb1\363-ComputerEngineeringLab1\Lab4\CPU\CPU_Modules.v" Line 188: Signal &lt;<arg fmt="%s" index="1">se</arg>&gt; missing in the sensitivity list is added for synthesis purposes. HDL and post-synthesis simulations may differ as a result.
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="91" delta="new" >"\\lions.tcnj.edu\public\homest\sieberb1\363-ComputerEngineeringLab1\Lab4\CPU\CPU_Modules.v" Line 189: Signal &lt;<arg fmt="%s" index="1">ALUop</arg>&gt; missing in the sensitivity list is added for synthesis purposes. HDL and post-synthesis simulations may differ as a result.
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="91" delta="new" >"\\lions.tcnj.edu\public\homest\sieberb1\363-ComputerEngineeringLab1\Lab4\CPU\CPU_Modules.v" Line 194: Signal &lt;<arg fmt="%s" index="1">MemRead</arg>&gt; missing in the sensitivity list is added for synthesis purposes. HDL and post-synthesis simulations may differ as a result.
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="91" delta="new" >"\\lions.tcnj.edu\public\homest\sieberb1\363-ComputerEngineeringLab1\Lab4\CPU\CPU_Modules.v" Line 195: Signal &lt;<arg fmt="%s" index="1">reg1data</arg>&gt; missing in the sensitivity list is added for synthesis purposes. HDL and post-synthesis simulations may differ as a result.
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="91" delta="new" >"\\lions.tcnj.edu\public\homest\sieberb1\363-ComputerEngineeringLab1\Lab4\CPU\CPU_Modules.v" Line 196: Signal &lt;<arg fmt="%s" index="1">se</arg>&gt; missing in the sensitivity list is added for synthesis purposes. HDL and post-synthesis simulations may differ as a result.
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="91" delta="new" >"\\lions.tcnj.edu\public\homest\sieberb1\363-ComputerEngineeringLab1\Lab4\CPU\CPU_Modules.v" Line 197: Signal &lt;<arg fmt="%s" index="1">ALUop</arg>&gt; missing in the sensitivity list is added for synthesis purposes. HDL and post-synthesis simulations may differ as a result.
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="91" delta="new" >"\\lions.tcnj.edu\public\homest\sieberb1\363-ComputerEngineeringLab1\Lab4\CPU\CPU_Modules.v" Line 198: Signal &lt;<arg fmt="%s" index="1">WBReg</arg>&gt; missing in the sensitivity list is added for synthesis purposes. HDL and post-synthesis simulations may differ as a result.
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="91" delta="new" >"\\lions.tcnj.edu\public\homest\sieberb1\363-ComputerEngineeringLab1\Lab4\CPU\CPU_Modules.v" Line 205: Signal &lt;<arg fmt="%s" index="1">MemRead</arg>&gt; missing in the sensitivity list is added for synthesis purposes. HDL and post-synthesis simulations may differ as a result.
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="91" delta="new" >"\\lions.tcnj.edu\public\homest\sieberb1\363-ComputerEngineeringLab1\Lab4\CPU\CPU_Modules.v" Line 206: Signal &lt;<arg fmt="%s" index="1">reg1data</arg>&gt; missing in the sensitivity list is added for synthesis purposes. HDL and post-synthesis simulations may differ as a result.
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="91" delta="new" >"\\lions.tcnj.edu\public\homest\sieberb1\363-ComputerEngineeringLab1\Lab4\CPU\CPU_Modules.v" Line 207: Signal &lt;<arg fmt="%s" index="1">reg2data</arg>&gt; missing in the sensitivity list is added for synthesis purposes. HDL and post-synthesis simulations may differ as a result.
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="91" delta="new" >"\\lions.tcnj.edu\public\homest\sieberb1\363-ComputerEngineeringLab1\Lab4\CPU\CPU_Modules.v" Line 208: Signal &lt;<arg fmt="%s" index="1">ALUop</arg>&gt; missing in the sensitivity list is added for synthesis purposes. HDL and post-synthesis simulations may differ as a result.
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="91" delta="new" >"\\lions.tcnj.edu\public\homest\sieberb1\363-ComputerEngineeringLab1\Lab4\CPU\CPU_Modules.v" Line 209: Signal &lt;<arg fmt="%s" index="1">WBReg</arg>&gt; missing in the sensitivity list is added for synthesis purposes. HDL and post-synthesis simulations may differ as a result.
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="91" delta="new" >"\\lions.tcnj.edu\public\homest\sieberb1\363-ComputerEngineeringLab1\Lab4\CPU\CPU_Modules.v" Line 214: Signal &lt;<arg fmt="%s" index="1">reg1data</arg>&gt; missing in the sensitivity list is added for synthesis purposes. HDL and post-synthesis simulations may differ as a result.
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="1625" delta="new" >"\\lions.tcnj.edu\public\homest\sieberb1\363-ComputerEngineeringLab1\Lab4\CPU\CPU_Modules.v" Line 214: Canot display values larger than 32 bits in h/d/o/x format
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="91" delta="new" >"\\lions.tcnj.edu\public\homest\sieberb1\363-ComputerEngineeringLab1\Lab4\CPU\CPU_Modules.v" Line 215: Signal &lt;<arg fmt="%s" index="1">reg2data</arg>&gt; missing in the sensitivity list is added for synthesis purposes. HDL and post-synthesis simulations may differ as a result.
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="1625" delta="new" >"\\lions.tcnj.edu\public\homest\sieberb1\363-ComputerEngineeringLab1\Lab4\CPU\CPU_Modules.v" Line 215: Canot display values larger than 32 bits in h/d/o/x format
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="91" delta="new" >"\\lions.tcnj.edu\public\homest\sieberb1\363-ComputerEngineeringLab1\Lab4\CPU\CPU_Modules.v" Line 216: Signal &lt;<arg fmt="%s" index="1">ALUop</arg>&gt; missing in the sensitivity list is added for synthesis purposes. HDL and post-synthesis simulations may differ as a result.
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="1625" delta="new" >"\\lions.tcnj.edu\public\homest\sieberb1\363-ComputerEngineeringLab1\Lab4\CPU\CPU_Modules.v" Line 217: Canot display values larger than 32 bits in h/d/o/x format
+</msg>
+
+<msg type="error" file="HDLCompiler" num="1401" delta="new" >"\\lions.tcnj.edu\public\homest\sieberb1\363-ComputerEngineeringLab1\Lab4\CPU\CPU_Modules.v" Line 165: Signal <arg fmt="%s" index="1">pcout[63]</arg> in unit <arg fmt="%s" index="2">ARM_Execute</arg> is connected to following multiple drivers:
+</msg>
+
+<msg type="error" file="HDLCompiler" num="1401" delta="new" >"\\lions.tcnj.edu\public\homest\sieberb1\363-ComputerEngineeringLab1\Lab4\CPU\CPU_Modules.v" Line 158: Signal <arg fmt="%s" index="1">result[63]</arg> in unit <arg fmt="%s" index="2">ARM_Execute</arg> is connected to following multiple drivers:
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="634" delta="new" >"\\lions.tcnj.edu\public\homest\sieberb1\363-ComputerEngineeringLab1\Lab4\CPU\CPU_Modules.v" Line 134: Net &lt;<arg fmt="%s" index="1">mainALU_Z</arg>&gt; does not have a driver.
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="1499" delta="new" >"\\lions.tcnj.edu\public\homest\sieberb1\363-ComputerEngineeringLab1\Lab4\CPU\CPU_Modules.v" Line 108: Empty module &lt;<arg fmt="%s" index="1">ARM_Execute</arg>&gt; remains a black box.
+</msg>
+
+</messages>
+

@@ -1,0 +1,126 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- IMPORTANT: This is an internal file that has been generated
+     by the Xilinx ISE software.  Any direct editing or
+     changes made to this file may result in unpredictable
+     behavior or data corruption.  It is strongly advised that
+     users do not edit the contents of this file. -->
+<messages>
+<msg type="warning" file="HDLCompiler" num="568" delta="new" >"\\lions.tcnj.edu\public\homest\sieberb1\363-ComputerEngineeringLab1\Lab4\ARMProcessor\ARM_Decode.v" Line 50: Constant value is truncated to fit in &lt;<arg fmt="%d" index="1">3</arg>&gt; bits.
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="568" delta="new" >"\\lions.tcnj.edu\public\homest\sieberb1\363-ComputerEngineeringLab1\Lab4\ARMProcessor\ARM_Decode.v" Line 53: Constant value is truncated to fit in &lt;<arg fmt="%d" index="1">7</arg>&gt; bits.
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="568" delta="new" >"\\lions.tcnj.edu\public\homest\sieberb1\363-ComputerEngineeringLab1\Lab4\ARMProcessor\ARM_Decode.v" Line 58: Constant value is truncated to fit in &lt;<arg fmt="%d" index="1">3</arg>&gt; bits.
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="568" delta="new" >"\\lions.tcnj.edu\public\homest\sieberb1\363-ComputerEngineeringLab1\Lab4\ARMProcessor\ARM_Decode.v" Line 61: Constant value is truncated to fit in &lt;<arg fmt="%d" index="1">2</arg>&gt; bits.
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="568" delta="new" >"\\lions.tcnj.edu\public\homest\sieberb1\363-ComputerEngineeringLab1\Lab4\ARMProcessor\ARM_Decode.v" Line 66: Constant value is truncated to fit in &lt;<arg fmt="%d" index="1">3</arg>&gt; bits.
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="568" delta="new" >"\\lions.tcnj.edu\public\homest\sieberb1\363-ComputerEngineeringLab1\Lab4\ARMProcessor\ARM_Decode.v" Line 67: Constant value is truncated to fit in &lt;<arg fmt="%d" index="1">2</arg>&gt; bits.
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="568" delta="new" >"\\lions.tcnj.edu\public\homest\sieberb1\363-ComputerEngineeringLab1\Lab4\ARMProcessor\ARM_Decode.v" Line 68: Constant value is truncated to fit in &lt;<arg fmt="%d" index="1">2</arg>&gt; bits.
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="568" delta="new" >"\\lions.tcnj.edu\public\homest\sieberb1\363-ComputerEngineeringLab1\Lab4\ARMProcessor\ARM_Decode.v" Line 71: Constant value is truncated to fit in &lt;<arg fmt="%d" index="1">3</arg>&gt; bits.
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="568" delta="new" >"\\lions.tcnj.edu\public\homest\sieberb1\363-ComputerEngineeringLab1\Lab4\ARMProcessor\ARM_Decode.v" Line 77: Constant value is truncated to fit in &lt;<arg fmt="%d" index="1">3</arg>&gt; bits.
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="568" delta="new" >"\\lions.tcnj.edu\public\homest\sieberb1\363-ComputerEngineeringLab1\Lab4\ARMProcessor\ARM_Decode.v" Line 78: Constant value is truncated to fit in &lt;<arg fmt="%d" index="1">2</arg>&gt; bits.
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="568" delta="new" >"\\lions.tcnj.edu\public\homest\sieberb1\363-ComputerEngineeringLab1\Lab4\ARMProcessor\ARM_Decode.v" Line 79: Constant value is truncated to fit in &lt;<arg fmt="%d" index="1">2</arg>&gt; bits.
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="568" delta="new" >"\\lions.tcnj.edu\public\homest\sieberb1\363-ComputerEngineeringLab1\Lab4\ARMProcessor\ARM_Decode.v" Line 83: Constant value is truncated to fit in &lt;<arg fmt="%d" index="1">3</arg>&gt; bits.
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="568" delta="new" >"\\lions.tcnj.edu\public\homest\sieberb1\363-ComputerEngineeringLab1\Lab4\ARMProcessor\ARM_Decode.v" Line 84: Constant value is truncated to fit in &lt;<arg fmt="%d" index="1">2</arg>&gt; bits.
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="568" delta="new" >"\\lions.tcnj.edu\public\homest\sieberb1\363-ComputerEngineeringLab1\Lab4\ARMProcessor\ARM_Decode.v" Line 85: Constant value is truncated to fit in &lt;<arg fmt="%d" index="1">2</arg>&gt; bits.
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="568" delta="new" >"\\lions.tcnj.edu\public\homest\sieberb1\363-ComputerEngineeringLab1\Lab4\ARMProcessor\ARM_Decode.v" Line 89: Constant value is truncated to fit in &lt;<arg fmt="%d" index="1">3</arg>&gt; bits.
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="568" delta="new" >"\\lions.tcnj.edu\public\homest\sieberb1\363-ComputerEngineeringLab1\Lab4\ARMProcessor\ARM_Decode.v" Line 90: Constant value is truncated to fit in &lt;<arg fmt="%d" index="1">2</arg>&gt; bits.
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="568" delta="new" >"\\lions.tcnj.edu\public\homest\sieberb1\363-ComputerEngineeringLab1\Lab4\ARMProcessor\ARM_Decode.v" Line 91: Constant value is truncated to fit in &lt;<arg fmt="%d" index="1">2</arg>&gt; bits.
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="568" delta="new" >"\\lions.tcnj.edu\public\homest\sieberb1\363-ComputerEngineeringLab1\Lab4\ARMProcessor\ARM_Decode.v" Line 95: Constant value is truncated to fit in &lt;<arg fmt="%d" index="1">3</arg>&gt; bits.
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="568" delta="new" >"\\lions.tcnj.edu\public\homest\sieberb1\363-ComputerEngineeringLab1\Lab4\ARMProcessor\ARM_Decode.v" Line 96: Constant value is truncated to fit in &lt;<arg fmt="%d" index="1">2</arg>&gt; bits.
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="568" delta="new" >"\\lions.tcnj.edu\public\homest\sieberb1\363-ComputerEngineeringLab1\Lab4\ARMProcessor\ARM_Decode.v" Line 97: Constant value is truncated to fit in &lt;<arg fmt="%d" index="1">2</arg>&gt; bits.
+</msg>
+
+<msg type="error" file="HDLCompiler" num="329" delta="new" >"\\lions.tcnj.edu\public\homest\sieberb1\363-ComputerEngineeringLab1\Lab4\ARMProcessor\ARM_Decode.v" Line 36: Target &lt;<arg fmt="%s" index="1">ALUsrc</arg>&gt; of concurrent assignment or output port connection should be a net type.
+</msg>
+
+<msg type="error" file="HDLCompiler" num="329" delta="new" >"\\lions.tcnj.edu\public\homest\sieberb1\363-ComputerEngineeringLab1\Lab4\ARMProcessor\ARM_Decode.v" Line 37: Target &lt;<arg fmt="%s" index="1">mem2Reg</arg>&gt; of concurrent assignment or output port connection should be a net type.
+</msg>
+
+<msg type="error" file="HDLCompiler" num="329" delta="new" >"\\lions.tcnj.edu\public\homest\sieberb1\363-ComputerEngineeringLab1\Lab4\ARMProcessor\ARM_Decode.v" Line 38: Target &lt;<arg fmt="%s" index="1">regWrite</arg>&gt; of concurrent assignment or output port connection should be a net type.
+</msg>
+
+<msg type="error" file="HDLCompiler" num="329" delta="new" >"\\lions.tcnj.edu\public\homest\sieberb1\363-ComputerEngineeringLab1\Lab4\ARMProcessor\ARM_Decode.v" Line 39: Target &lt;<arg fmt="%s" index="1">memRead</arg>&gt; of concurrent assignment or output port connection should be a net type.
+</msg>
+
+<msg type="error" file="HDLCompiler" num="329" delta="new" >"\\lions.tcnj.edu\public\homest\sieberb1\363-ComputerEngineeringLab1\Lab4\ARMProcessor\ARM_Decode.v" Line 40: Target &lt;<arg fmt="%s" index="1">unconBranch</arg>&gt; of concurrent assignment or output port connection should be a net type.
+</msg>
+
+<msg type="error" file="HDLCompiler" num="329" delta="new" >"\\lions.tcnj.edu\public\homest\sieberb1\363-ComputerEngineeringLab1\Lab4\ARMProcessor\ARM_Decode.v" Line 41: Target &lt;<arg fmt="%s" index="1">branch</arg>&gt; of concurrent assignment or output port connection should be a net type.
+</msg>
+
+<msg type="error" file="HDLCompiler" num="329" delta="new" >"\\lions.tcnj.edu\public\homest\sieberb1\363-ComputerEngineeringLab1\Lab4\ARMProcessor\ARM_Decode.v" Line 42: Target &lt;<arg fmt="%s" index="1">readReg1</arg>&gt; of concurrent assignment or output port connection should be a net type.
+</msg>
+
+<msg type="error" file="HDLCompiler" num="329" delta="new" >"\\lions.tcnj.edu\public\homest\sieberb1\363-ComputerEngineeringLab1\Lab4\ARMProcessor\ARM_Decode.v" Line 43: Target &lt;<arg fmt="%s" index="1">readReg2</arg>&gt; of concurrent assignment or output port connection should be a net type.
+</msg>
+
+<msg type="error" file="HDLCompiler" num="329" delta="new" >"\\lions.tcnj.edu\public\homest\sieberb1\363-ComputerEngineeringLab1\Lab4\ARMProcessor\ARM_Decode.v" Line 44: Target &lt;<arg fmt="%s" index="1">se</arg>&gt; of concurrent assignment or output port connection should be a net type.
+</msg>
+
+<msg type="error" file="HDLCompiler" num="329" delta="new" >"\\lions.tcnj.edu\public\homest\sieberb1\363-ComputerEngineeringLab1\Lab4\ARMProcessor\ARM_Decode.v" Line 45: Target &lt;<arg fmt="%s" index="1">retReg</arg>&gt; of concurrent assignment or output port connection should be a net type.
+</msg>
+
+<msg type="error" file="HDLCompiler" num="329" delta="new" >"\\lions.tcnj.edu\public\homest\sieberb1\363-ComputerEngineeringLab1\Lab4\ARMProcessor\ARM_Decode.v" Line 49: Target &lt;<arg fmt="%s" index="1">tmp</arg>&gt; of concurrent assignment or output port connection should be a net type.
+</msg>
+
+<msg type="error" file="HDLCompiler" num="44" delta="new" >"\\lions.tcnj.edu\public\homest\sieberb1\363-ComputerEngineeringLab1\Lab4\ARMProcessor\ARM_Decode.v" Line 50: <arg fmt="%s" index="1">tmp</arg> is not a constant
+</msg>
+
+<msg type="error" file="HDLCompiler" num="329" delta="new" >"\\lions.tcnj.edu\public\homest\sieberb1\363-ComputerEngineeringLab1\Lab4\ARMProcessor\ARM_Decode.v" Line 51: Target &lt;<arg fmt="%s" index="1">unconBranch</arg>&gt; of concurrent assignment or output port connection should be a net type.
+</msg>
+
+<msg type="error" file="HDLCompiler" num="329" delta="new" >"\\lions.tcnj.edu\public\homest\sieberb1\363-ComputerEngineeringLab1\Lab4\ARMProcessor\ARM_Decode.v" Line 52: Target &lt;<arg fmt="%s" index="1">ALUsrc</arg>&gt; of concurrent assignment or output port connection should be a net type.
+</msg>
+
+<msg type="error" file="HDLCompiler" num="329" delta="new" >"\\lions.tcnj.edu\public\homest\sieberb1\363-ComputerEngineeringLab1\Lab4\ARMProcessor\ARM_Decode.v" Line 53: Target &lt;<arg fmt="%s" index="1">se</arg>&gt; of concurrent assignment or output port connection should be a net type.
+</msg>
+
+<msg type="error" file="HDLCompiler" num="329" delta="new" >"\\lions.tcnj.edu\public\homest\sieberb1\363-ComputerEngineeringLab1\Lab4\ARMProcessor\ARM_Decode.v" Line 54: Target &lt;<arg fmt="%s" index="1">aluCtrl</arg>&gt; of concurrent assignment or output port connection should be a net type.
+</msg>
+
+<msg type="error" file="HDLCompiler" num="329" delta="new" >"\\lions.tcnj.edu\public\homest\sieberb1\363-ComputerEngineeringLab1\Lab4\ARMProcessor\ARM_Decode.v" Line 57: Target &lt;<arg fmt="%s" index="1">tmp</arg>&gt; of concurrent assignment or output port connection should be a net type.
+</msg>
+
+<msg type="error" file="HDLCompiler" num="44" delta="new" >"\\lions.tcnj.edu\public\homest\sieberb1\363-ComputerEngineeringLab1\Lab4\ARMProcessor\ARM_Decode.v" Line 58: <arg fmt="%s" index="1">tmp</arg> is not a constant
+</msg>
+
+<msg type="error" file="HDLCompiler" num="329" delta="new" >"\\lions.tcnj.edu\public\homest\sieberb1\363-ComputerEngineeringLab1\Lab4\ARMProcessor\ARM_Decode.v" Line 59: Target &lt;<arg fmt="%s" index="1">branch</arg>&gt; of concurrent assignment or output port connection should be a net type.
+</msg>
+
+</messages>
+

@@ -1,0 +1,186 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<wave_config>
+   <wave_state>
+   </wave_state>
+   <db_ref_list>
+      <db_ref path="H:/363-ComputerEngineeringLab1/Lab4/CPU/MemBufferTest_isim_beh.wdb" id="1" type="auto">
+         <top_modules>
+            <top_module name="MemBufferTest" />
+            <top_module name="glbl" />
+         </top_modules>
+      </db_ref>
+   </db_ref_list>
+   <WVObjectSize size="25" />
+   <wave_markers>
+      <marker time="100010000" label="" />
+   </wave_markers>
+   <wvobject fp_name="divider122" type="divider">
+      <obj_property name="label">Inputs</obj_property>
+      <obj_property name="DisplayName">label</obj_property>
+      <obj_property name="BkColor">#000080</obj_property>
+      <obj_property name="TextColor">230 230 230</obj_property>
+   </wvobject>
+   <wvobject fp_name="/MemBufferTest/clock" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">clock</obj_property>
+      <obj_property name="ObjectShortName">clock</obj_property>
+   </wvobject>
+   <wvobject fp_name="/MemBufferTest/instage1" type="array" db_ref_id="1">
+      <obj_property name="DisplayName">label</obj_property>
+      <obj_property name="ElementShortName">instage1[63:0]</obj_property>
+      <obj_property name="ObjectShortName">instage1[63:0]</obj_property>
+      <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+      <obj_property name="label">InputBuffer1</obj_property>
+   </wvobject>
+   <wvobject fp_name="/MemBufferTest/instage2" type="array" db_ref_id="1">
+      <obj_property name="DisplayName">label</obj_property>
+      <obj_property name="ElementShortName">instage2[63:0]</obj_property>
+      <obj_property name="ObjectShortName">instage2[63:0]</obj_property>
+      <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+      <obj_property name="label">InputBuffer2</obj_property>
+   </wvobject>
+   <wvobject fp_name="/MemBufferTest/instage3" type="array" db_ref_id="1">
+      <obj_property name="DisplayName">label</obj_property>
+      <obj_property name="ElementShortName">instage3[63:0]</obj_property>
+      <obj_property name="ObjectShortName">instage3[63:0]</obj_property>
+      <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+      <obj_property name="label">InputBuffer3</obj_property>
+   </wvobject>
+   <wvobject fp_name="divider123" type="divider">
+      <obj_property name="label">Internals</obj_property>
+      <obj_property name="DisplayName">label</obj_property>
+      <obj_property name="BkColor">#000080</obj_property>
+      <obj_property name="TextColor">230 230 230</obj_property>
+   </wvobject>
+   <wvobject fp_name="/MemBufferTest/uut/stage1DeMux/in" type="array" db_ref_id="1">
+      <obj_property name="DisplayName">label</obj_property>
+      <obj_property name="ElementShortName">in[63:0]</obj_property>
+      <obj_property name="ObjectShortName">in[63:0]</obj_property>
+      <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+      <obj_property name="label">Demux1In</obj_property>
+   </wvobject>
+   <wvobject fp_name="/MemBufferTest/uut/stage1DeMux/out1" type="array" db_ref_id="1">
+      <obj_property name="DisplayName">label</obj_property>
+      <obj_property name="ElementShortName">out1[63:0]</obj_property>
+      <obj_property name="ObjectShortName">out1[63:0]</obj_property>
+      <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+      <obj_property name="label">Demux1Out1</obj_property>
+   </wvobject>
+   <wvobject fp_name="/MemBufferTest/uut/stage1DeMux/out2" type="array" db_ref_id="1">
+      <obj_property name="DisplayName">label</obj_property>
+      <obj_property name="ElementShortName">out2[63:0]</obj_property>
+      <obj_property name="ObjectShortName">out2[63:0]</obj_property>
+      <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+      <obj_property name="label">Demux1Out2</obj_property>
+   </wvobject>
+   <wvobject fp_name="/MemBufferTest/uut/stage1Mux/in1" type="array" db_ref_id="1">
+      <obj_property name="DisplayName">label</obj_property>
+      <obj_property name="ElementShortName">in1[63:0]</obj_property>
+      <obj_property name="ObjectShortName">in1[63:0]</obj_property>
+      <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+      <obj_property name="label">Mux1In1</obj_property>
+   </wvobject>
+   <wvobject fp_name="/MemBufferTest/uut/stage1Mux/in2" type="array" db_ref_id="1">
+      <obj_property name="DisplayName">label</obj_property>
+      <obj_property name="ElementShortName">in2[63:0]</obj_property>
+      <obj_property name="ObjectShortName">in2[63:0]</obj_property>
+      <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+      <obj_property name="label">Mux2In2</obj_property>
+   </wvobject>
+   <wvobject fp_name="/MemBufferTest/uut/stage2DeMux/in" type="array" db_ref_id="1">
+      <obj_property name="DisplayName">label</obj_property>
+      <obj_property name="ElementShortName">in[63:0]</obj_property>
+      <obj_property name="ObjectShortName">in[63:0]</obj_property>
+      <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+      <obj_property name="label">Demux2In</obj_property>
+   </wvobject>
+   <wvobject fp_name="/MemBufferTest/uut/stage2DeMux/out1" type="array" db_ref_id="1">
+      <obj_property name="DisplayName">label</obj_property>
+      <obj_property name="ElementShortName">out1[63:0]</obj_property>
+      <obj_property name="ObjectShortName">out1[63:0]</obj_property>
+      <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+      <obj_property name="label">Demux2Out1</obj_property>
+   </wvobject>
+   <wvobject fp_name="/MemBufferTest/uut/stage2DeMux/out2" type="array" db_ref_id="1">
+      <obj_property name="DisplayName">label</obj_property>
+      <obj_property name="ElementShortName">out2[63:0]</obj_property>
+      <obj_property name="ObjectShortName">out2[63:0]</obj_property>
+      <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+      <obj_property name="label">Demux2Out2</obj_property>
+   </wvobject>
+   <wvobject fp_name="/MemBufferTest/uut/stage2Mux/in1" type="array" db_ref_id="1">
+      <obj_property name="DisplayName">label</obj_property>
+      <obj_property name="ElementShortName">in1[63:0]</obj_property>
+      <obj_property name="ObjectShortName">in1[63:0]</obj_property>
+      <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+      <obj_property name="label">Mux2In1</obj_property>
+   </wvobject>
+   <wvobject fp_name="/MemBufferTest/uut/stage2Mux/in2" type="array" db_ref_id="1">
+      <obj_property name="DisplayName">label</obj_property>
+      <obj_property name="ElementShortName">in2[63:0]</obj_property>
+      <obj_property name="ObjectShortName">in2[63:0]</obj_property>
+      <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+      <obj_property name="label">Mux2In2</obj_property>
+   </wvobject>
+   <wvobject fp_name="/MemBufferTest/uut/stage3DeMux/in" type="array" db_ref_id="1">
+      <obj_property name="DisplayName">label</obj_property>
+      <obj_property name="ElementShortName">in[63:0]</obj_property>
+      <obj_property name="ObjectShortName">in[63:0]</obj_property>
+      <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+      <obj_property name="label">Demux3In</obj_property>
+   </wvobject>
+   <wvobject fp_name="/MemBufferTest/uut/stage3DeMux/out1" type="array" db_ref_id="1">
+      <obj_property name="DisplayName">label</obj_property>
+      <obj_property name="ElementShortName">out1[63:0]</obj_property>
+      <obj_property name="ObjectShortName">out1[63:0]</obj_property>
+      <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+      <obj_property name="label">Demux3Out1</obj_property>
+   </wvobject>
+   <wvobject fp_name="/MemBufferTest/uut/stage3DeMux/out2" type="array" db_ref_id="1">
+      <obj_property name="DisplayName">label</obj_property>
+      <obj_property name="ElementShortName">out2[63:0]</obj_property>
+      <obj_property name="ObjectShortName">out2[63:0]</obj_property>
+      <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+      <obj_property name="label">Demux3Out2</obj_property>
+   </wvobject>
+   <wvobject fp_name="/MemBufferTest/uut/stage3Mux/in1" type="array" db_ref_id="1">
+      <obj_property name="DisplayName">label</obj_property>
+      <obj_property name="ElementShortName">in1[63:0]</obj_property>
+      <obj_property name="ObjectShortName">in1[63:0]</obj_property>
+      <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+      <obj_property name="label">Mux3In1</obj_property>
+   </wvobject>
+   <wvobject fp_name="/MemBufferTest/uut/stage3Mux/in2" type="array" db_ref_id="1">
+      <obj_property name="DisplayName">label</obj_property>
+      <obj_property name="ElementShortName">in2[63:0]</obj_property>
+      <obj_property name="ObjectShortName">in2[63:0]</obj_property>
+      <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+      <obj_property name="label">Mux3In2</obj_property>
+   </wvobject>
+   <wvobject fp_name="divider121" type="divider">
+      <obj_property name="label">Outputs</obj_property>
+      <obj_property name="DisplayName">label</obj_property>
+      <obj_property name="BkColor">#000080</obj_property>
+      <obj_property name="TextColor">230 230 230</obj_property>
+   </wvobject>
+   <wvobject fp_name="/MemBufferTest/uut/stage1Mux/out" type="array" db_ref_id="1">
+      <obj_property name="DisplayName">label</obj_property>
+      <obj_property name="ElementShortName">out[63:0]</obj_property>
+      <obj_property name="ObjectShortName">out[63:0]</obj_property>
+      <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+      <obj_property name="label">Buffer1Output</obj_property>
+   </wvobject>
+   <wvobject fp_name="/MemBufferTest/uut/stage2Mux/out" type="array" db_ref_id="1">
+      <obj_property name="DisplayName">label</obj_property>
+      <obj_property name="ElementShortName">out[63:0]</obj_property>
+      <obj_property name="ObjectShortName">out[63:0]</obj_property>
+      <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+      <obj_property name="label">Buffer2Output</obj_property>
+   </wvobject>
+   <wvobject fp_name="/MemBufferTest/uut/stage3Mux/out" type="array" db_ref_id="1">
+      <obj_property name="DisplayName">label</obj_property>
+      <obj_property name="ElementShortName">out[63:0]</obj_property>
+      <obj_property name="ObjectShortName">out[63:0]</obj_property>
+      <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+      <obj_property name="label">Buffer3Output</obj_property>
+   </wvobject>
+</wave_config>

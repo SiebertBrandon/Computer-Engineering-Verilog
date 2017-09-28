@@ -1,0 +1,346 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<wave_config>
+   <wave_state>
+   </wave_state>
+   <db_ref_list>
+      <db_ref path="H:/363-ComputerEngineeringLab1/Lab5/cpu_test_isim_beh.wdb" id="1" type="auto">
+         <top_modules>
+            <top_module name="cpu_test" />
+            <top_module name="glbl" />
+         </top_modules>
+      </db_ref>
+   </db_ref_list>
+   <WVObjectSize size="79" />
+   <wvobject fp_name="/cpu_test/mem_in" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">mem_in[15:0]</obj_property>
+      <obj_property name="ObjectShortName">mem_in[15:0]</obj_property>
+      <obj_property name="Radix">HEXRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/cpu_test/instr_in" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">instr_in[15:0]</obj_property>
+      <obj_property name="ObjectShortName">instr_in[15:0]</obj_property>
+      <obj_property name="Radix">HEXRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/cpu_test/address" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">address[11:0]</obj_property>
+      <obj_property name="ObjectShortName">address[11:0]</obj_property>
+      <obj_property name="Radix">HEXRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/cpu_test/write" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">write</obj_property>
+      <obj_property name="ObjectShortName">write</obj_property>
+   </wvobject>
+   <wvobject fp_name="/cpu_test/mem_out" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">mem_out[15:0]</obj_property>
+      <obj_property name="ObjectShortName">mem_out[15:0]</obj_property>
+      <obj_property name="Radix">HEXRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/cpu_test/clk" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">clk</obj_property>
+      <obj_property name="ObjectShortName">clk</obj_property>
+   </wvobject>
+   <wvobject fp_name="/cpu_test/reset" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">reset</obj_property>
+      <obj_property name="ObjectShortName">reset</obj_property>
+   </wvobject>
+   <wvobject fp_name="/cpu_test/cpu/c1/instruction_code" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">instruction_code[3:0]</obj_property>
+      <obj_property name="ObjectShortName">instruction_code[3:0]</obj_property>
+      <obj_property name="Radix">HEXRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/cpu_test/cpu/c1/gtz" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">gtz</obj_property>
+      <obj_property name="ObjectShortName">gtz</obj_property>
+   </wvobject>
+   <wvobject fp_name="/cpu_test/cpu/c1/clk" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">clk</obj_property>
+      <obj_property name="ObjectShortName">clk</obj_property>
+   </wvobject>
+   <wvobject fp_name="/cpu_test/cpu/c1/reset" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">reset</obj_property>
+      <obj_property name="ObjectShortName">reset</obj_property>
+   </wvobject>
+   <wvobject fp_name="/cpu_test/cpu/c1/ma_mux_con" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">ma_mux_con</obj_property>
+      <obj_property name="ObjectShortName">ma_mux_con</obj_property>
+   </wvobject>
+   <wvobject fp_name="/cpu_test/cpu/c1/pc_mux_con" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">pc_mux_con[1:0]</obj_property>
+      <obj_property name="ObjectShortName">pc_mux_con[1:0]</obj_property>
+      <obj_property name="Radix">HEXRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/cpu_test/cpu/c1/a_mux_con" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">a_mux_con</obj_property>
+      <obj_property name="ObjectShortName">a_mux_con</obj_property>
+   </wvobject>
+   <wvobject fp_name="/cpu_test/cpu/c1/md_enable" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">md_enable</obj_property>
+      <obj_property name="ObjectShortName">md_enable</obj_property>
+   </wvobject>
+   <wvobject fp_name="/cpu_test/cpu/c1/ir_enable" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">ir_enable</obj_property>
+      <obj_property name="ObjectShortName">ir_enable</obj_property>
+   </wvobject>
+   <wvobject fp_name="/cpu_test/cpu/c1/ma_enable" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">ma_enable</obj_property>
+      <obj_property name="ObjectShortName">ma_enable</obj_property>
+   </wvobject>
+   <wvobject fp_name="/cpu_test/cpu/c1/pc_enable" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">pc_enable</obj_property>
+      <obj_property name="ObjectShortName">pc_enable</obj_property>
+   </wvobject>
+   <wvobject fp_name="/cpu_test/cpu/c1/c_enable" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">c_enable</obj_property>
+      <obj_property name="ObjectShortName">c_enable</obj_property>
+   </wvobject>
+   <wvobject fp_name="/cpu_test/cpu/c1/ac_enable" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">ac_enable</obj_property>
+      <obj_property name="ObjectShortName">ac_enable</obj_property>
+   </wvobject>
+   <wvobject fp_name="/cpu_test/cpu/c1/rwn" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">rwn</obj_property>
+      <obj_property name="ObjectShortName">rwn</obj_property>
+   </wvobject>
+   <wvobject fp_name="/cpu_test/cpu/c1/inca_enable" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">inca_enable</obj_property>
+      <obj_property name="ObjectShortName">inca_enable</obj_property>
+   </wvobject>
+   <wvobject fp_name="/cpu_test/cpu/c1/aluc" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">aluc[2:0]</obj_property>
+      <obj_property name="ObjectShortName">aluc[2:0]</obj_property>
+      <obj_property name="Radix">HEXRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/cpu_test/cpu/c1/state" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">state[4:0]</obj_property>
+      <obj_property name="ObjectShortName">state[4:0]</obj_property>
+      <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/cpu_test/cpu/ir1/indata" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">indata[15:0]</obj_property>
+      <obj_property name="ObjectShortName">indata[15:0]</obj_property>
+      <obj_property name="Radix">HEXRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/cpu_test/cpu/ir1/enable" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">enable</obj_property>
+      <obj_property name="ObjectShortName">enable</obj_property>
+   </wvobject>
+   <wvobject fp_name="/cpu_test/cpu/ir1/outdata" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">outdata[11:0]</obj_property>
+      <obj_property name="ObjectShortName">outdata[11:0]</obj_property>
+      <obj_property name="Radix">HEXRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/cpu_test/cpu/ir1/opcode" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">opcode[3:0]</obj_property>
+      <obj_property name="ObjectShortName">opcode[3:0]</obj_property>
+      <obj_property name="Radix">HEXRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/cpu_test/cpu/ir1/data" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">data[15:0]</obj_property>
+      <obj_property name="ObjectShortName">data[15:0]</obj_property>
+      <obj_property name="Radix">HEXRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/cpu_test/cpu/mux2/in1" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">in1[11:0]</obj_property>
+      <obj_property name="ObjectShortName">in1[11:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/cpu_test/cpu/mux2/in0" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">in0[11:0]</obj_property>
+      <obj_property name="ObjectShortName">in0[11:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/cpu_test/cpu/mux2/mode" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">mode</obj_property>
+      <obj_property name="ObjectShortName">mode</obj_property>
+   </wvobject>
+   <wvobject fp_name="/cpu_test/cpu/mux2/out" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">out[11:0]</obj_property>
+      <obj_property name="ObjectShortName">out[11:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/cpu_test/cpu/clk" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">clk</obj_property>
+      <obj_property name="ObjectShortName">clk</obj_property>
+   </wvobject>
+   <wvobject fp_name="/cpu_test/cpu/reset" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">reset</obj_property>
+      <obj_property name="ObjectShortName">reset</obj_property>
+   </wvobject>
+   <wvobject fp_name="/cpu_test/cpu/instr_in" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">instr_in[15:0]</obj_property>
+      <obj_property name="ObjectShortName">instr_in[15:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/cpu_test/cpu/mem_in" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">mem_in[15:0]</obj_property>
+      <obj_property name="ObjectShortName">mem_in[15:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/cpu_test/cpu/address" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">address[11:0]</obj_property>
+      <obj_property name="ObjectShortName">address[11:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/cpu_test/cpu/write" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">write</obj_property>
+      <obj_property name="ObjectShortName">write</obj_property>
+   </wvobject>
+   <wvobject fp_name="/cpu_test/cpu/mem_out" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">mem_out[15:0]</obj_property>
+      <obj_property name="ObjectShortName">mem_out[15:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/cpu_test/cpu/enable_md" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">enable_md</obj_property>
+      <obj_property name="ObjectShortName">enable_md</obj_property>
+   </wvobject>
+   <wvobject fp_name="/cpu_test/cpu/enable_ir" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">enable_ir</obj_property>
+      <obj_property name="ObjectShortName">enable_ir</obj_property>
+   </wvobject>
+   <wvobject fp_name="/cpu_test/cpu/enable_c" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">enable_c</obj_property>
+      <obj_property name="ObjectShortName">enable_c</obj_property>
+   </wvobject>
+   <wvobject fp_name="/cpu_test/cpu/enable_ac" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">enable_ac</obj_property>
+      <obj_property name="ObjectShortName">enable_ac</obj_property>
+   </wvobject>
+   <wvobject fp_name="/cpu_test/cpu/enable_ma" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">enable_ma</obj_property>
+      <obj_property name="ObjectShortName">enable_ma</obj_property>
+   </wvobject>
+   <wvobject fp_name="/cpu_test/cpu/enable_pc" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">enable_pc</obj_property>
+      <obj_property name="ObjectShortName">enable_pc</obj_property>
+   </wvobject>
+   <wvobject fp_name="/cpu_test/cpu/enable_inc" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">enable_inc</obj_property>
+      <obj_property name="ObjectShortName">enable_inc</obj_property>
+   </wvobject>
+   <wvobject fp_name="/cpu_test/cpu/enable_mux1" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">enable_mux1</obj_property>
+      <obj_property name="ObjectShortName">enable_mux1</obj_property>
+   </wvobject>
+   <wvobject fp_name="/cpu_test/cpu/enable_mux2" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">enable_mux2</obj_property>
+      <obj_property name="ObjectShortName">enable_mux2</obj_property>
+   </wvobject>
+   <wvobject fp_name="/cpu_test/cpu/enable_mux3" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">enable_mux3[1:0]</obj_property>
+      <obj_property name="ObjectShortName">enable_mux3[1:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/cpu_test/cpu/mem_to_md" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">mem_to_md[15:0]</obj_property>
+      <obj_property name="ObjectShortName">mem_to_md[15:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/cpu_test/cpu/mem_to_ir" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">mem_to_ir[15:0]</obj_property>
+      <obj_property name="ObjectShortName">mem_to_ir[15:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/cpu_test/cpu/ir_to_mux3_mux1" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">ir_to_mux3_mux1[11:0]</obj_property>
+      <obj_property name="ObjectShortName">ir_to_mux3_mux1[11:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/cpu_test/cpu/ir_to_controller" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">ir_to_controller[3:0]</obj_property>
+      <obj_property name="ObjectShortName">ir_to_controller[3:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/cpu_test/cpu/md_to_b" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">md_to_b[15:0]</obj_property>
+      <obj_property name="ObjectShortName">md_to_b[15:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/cpu_test/cpu/md_to_mux3_mux1" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">md_to_mux3_mux1[11:0]</obj_property>
+      <obj_property name="ObjectShortName">md_to_mux3_mux1[11:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/cpu_test/cpu/c_to_alu" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">c_to_alu</obj_property>
+      <obj_property name="ObjectShortName">c_to_alu</obj_property>
+   </wvobject>
+   <wvobject fp_name="/cpu_test/cpu/alu_to_c" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">alu_to_c</obj_property>
+      <obj_property name="ObjectShortName">alu_to_c</obj_property>
+   </wvobject>
+   <wvobject fp_name="/cpu_test/cpu/ac_to_a_write" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">ac_to_a_write[15:0]</obj_property>
+      <obj_property name="ObjectShortName">ac_to_a_write[15:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/cpu_test/cpu/ac_to_control" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">ac_to_control</obj_property>
+      <obj_property name="ObjectShortName">ac_to_control</obj_property>
+   </wvobject>
+   <wvobject fp_name="/cpu_test/cpu/alu_to_ac" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">alu_to_ac[15:0]</obj_property>
+      <obj_property name="ObjectShortName">alu_to_ac[15:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/cpu_test/cpu/mux1_to_ma" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">mux1_to_ma[11:0]</obj_property>
+      <obj_property name="ObjectShortName">mux1_to_ma[11:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/cpu_test/cpu/mux3_to_pc" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">mux3_to_pc[11:0]</obj_property>
+      <obj_property name="ObjectShortName">mux3_to_pc[11:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/cpu_test/cpu/ma_to_mux2" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">ma_to_mux2[11:0]</obj_property>
+      <obj_property name="ObjectShortName">ma_to_mux2[11:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/cpu_test/cpu/pc_to_mux2_inc" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">pc_to_mux2_inc[11:0]</obj_property>
+      <obj_property name="ObjectShortName">pc_to_mux2_inc[11:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/cpu_test/cpu/inc_to_mux3" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">inc_to_mux3[11:0]</obj_property>
+      <obj_property name="ObjectShortName">inc_to_mux3[11:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/cpu_test/cpu/mux2_to_mem" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">mux2_to_mem[11:0]</obj_property>
+      <obj_property name="ObjectShortName">mux2_to_mem[11:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/cpu_test/cpu/clk_to_controller" type="logic" db_ref_id="1">
+      <obj_property name="DisplayName">label</obj_property>
+      <obj_property name="ElementShortName">clk_to_controller</obj_property>
+      <obj_property name="ObjectShortName">clk_to_controller</obj_property>
+      <obj_property name="label">clk_to_controller</obj_property>
+   </wvobject>
+   <wvobject fp_name="/cpu_test/cpu/reset_to_controller" type="logic" db_ref_id="1">
+      <obj_property name="DisplayName">label</obj_property>
+      <obj_property name="ElementShortName">reset_to_controller</obj_property>
+      <obj_property name="ObjectShortName">reset_to_controller</obj_property>
+      <obj_property name="label">reset_to_controller</obj_property>
+   </wvobject>
+   <wvobject fp_name="/cpu_test/cpu/write_to_mem" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">write_to_mem</obj_property>
+      <obj_property name="ObjectShortName">write_to_mem</obj_property>
+   </wvobject>
+   <wvobject fp_name="/cpu_test/cpu/controller_to_alu" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">controller_to_alu[2:0]</obj_property>
+      <obj_property name="ObjectShortName">controller_to_alu[2:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/cpu_test/cpu/alu1/a" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">a[15:0]</obj_property>
+      <obj_property name="ObjectShortName">a[15:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/cpu_test/cpu/alu1/b" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">b[15:0]</obj_property>
+      <obj_property name="ObjectShortName">b[15:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/cpu_test/cpu/alu1/cin" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">cin</obj_property>
+      <obj_property name="ObjectShortName">cin</obj_property>
+   </wvobject>
+   <wvobject fp_name="/cpu_test/cpu/alu1/aluc" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">aluc[2:0]</obj_property>
+      <obj_property name="ObjectShortName">aluc[2:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/cpu_test/cpu/alu1/cout" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">cout</obj_property>
+      <obj_property name="ObjectShortName">cout</obj_property>
+   </wvobject>
+   <wvobject fp_name="/cpu_test/cpu/alu1/y" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">y[15:0]</obj_property>
+      <obj_property name="ObjectShortName">y[15:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/cpu_test/cpu/alu1/sum" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">sum[16:0]</obj_property>
+      <obj_property name="ObjectShortName">sum[16:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/cpu_test/cpu/alu1/carry" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">carry</obj_property>
+      <obj_property name="ObjectShortName">carry</obj_property>
+   </wvobject>
+</wave_config>

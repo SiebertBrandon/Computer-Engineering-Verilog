@@ -1,0 +1,536 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<wave_config>
+   <wave_state>
+   </wave_state>
+   <db_ref_list>
+      <db_ref path="H:/363-ComputerEngineeringLab1/Lab4/CPU/ARM_Testbench_isim_beh.wdb" id="1" type="auto">
+         <top_modules>
+            <top_module name="ARM_Testbench" />
+            <top_module name="glbl" />
+         </top_modules>
+      </db_ref>
+   </db_ref_list>
+   <WVObjectSize size="62" />
+   <wave_markers>
+      <marker time="0" label="" />
+   </wave_markers>
+   <wvobject fp_name="divider107" type="divider">
+      <obj_property name="label">Globals</obj_property>
+      <obj_property name="DisplayName">label</obj_property>
+      <obj_property name="BkColor">#000000</obj_property>
+      <obj_property name="TextColor">230 230 230</obj_property>
+   </wvobject>
+   <wvobject fp_name="/ARM_Testbench/MASTERCLOCK_BUFFERS" type="logic" db_ref_id="1">
+      <obj_property name="DisplayName">label</obj_property>
+      <obj_property name="ElementShortName">MASTERCLOCK_BUFFERS</obj_property>
+      <obj_property name="ObjectShortName">MASTERCLOCK_BUFFERS</obj_property>
+      <obj_property name="label">MASTERCLOCK_BUFFERS</obj_property>
+   </wvobject>
+   <wvobject fp_name="/ARM_Testbench/MASTERCLOCK_STAGES" type="logic" db_ref_id="1">
+      <obj_property name="DisplayName">label</obj_property>
+      <obj_property name="ElementShortName">MASTERCLOCK_STAGES</obj_property>
+      <obj_property name="ObjectShortName">MASTERCLOCK_STAGES</obj_property>
+      <obj_property name="label">MASTERCLOCK_MODULES</obj_property>
+   </wvobject>
+   <wvobject fp_name="divider107" type="divider">
+      <obj_property name="label">Fetch</obj_property>
+      <obj_property name="DisplayName">label</obj_property>
+      <obj_property name="BkColor">128 128 255</obj_property>
+      <obj_property name="TextColor">230 230 230</obj_property>
+   </wvobject>
+   <wvobject fp_name="divider164" type="divider">
+      <obj_property name="label">Inputs</obj_property>
+      <obj_property name="DisplayName">label</obj_property>
+      <obj_property name="BkColor">#000000</obj_property>
+      <obj_property name="TextColor">230 230 230</obj_property>
+   </wvobject>
+   <wvobject fp_name="/ARM_Testbench/pc_to_de_prebuff" type="array" db_ref_id="1">
+      <obj_property name="DisplayName">label</obj_property>
+      <obj_property name="ElementShortName">pc_to_de_prebuff[31:0]</obj_property>
+      <obj_property name="ObjectShortName">pc_to_de_prebuff[31:0]</obj_property>
+      <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+      <obj_property name="label">Program Counter</obj_property>
+   </wvobject>
+   <wvobject fp_name="divider163" type="divider">
+      <obj_property name="label">Outputs</obj_property>
+      <obj_property name="DisplayName">label</obj_property>
+      <obj_property name="BkColor">#000000</obj_property>
+      <obj_property name="TextColor">230 230 230</obj_property>
+   </wvobject>
+   <wvobject fp_name="/ARM_Testbench/in_to_de_prebuff" type="array" db_ref_id="1">
+      <obj_property name="DisplayName">label</obj_property>
+      <obj_property name="ElementShortName">in_to_de_prebuff[31:0]</obj_property>
+      <obj_property name="ObjectShortName">in_to_de_prebuff[31:0]</obj_property>
+      <obj_property name="Radix">HEXRADIX</obj_property>
+      <obj_property name="label">Instruction</obj_property>
+   </wvobject>
+   <wvobject fp_name="divider106" type="divider">
+      <obj_property name="label">Decode</obj_property>
+      <obj_property name="DisplayName">label</obj_property>
+      <obj_property name="BkColor">128 128 255</obj_property>
+      <obj_property name="TextColor">230 230 230</obj_property>
+   </wvobject>
+   <wvobject fp_name="divider164" type="divider">
+      <obj_property name="label">Inputs</obj_property>
+      <obj_property name="DisplayName">label</obj_property>
+      <obj_property name="BkColor">#000000</obj_property>
+      <obj_property name="TextColor">230 230 230</obj_property>
+   </wvobject>
+   <wvobject fp_name="/ARM_Testbench/pc_to_de_postbuff" type="array" db_ref_id="1">
+      <obj_property name="DisplayName">label</obj_property>
+      <obj_property name="ElementShortName">pc_to_de_postbuff[31:0]</obj_property>
+      <obj_property name="ObjectShortName">pc_to_de_postbuff[31:0]</obj_property>
+      <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+      <obj_property name="label">Program Counter</obj_property>
+   </wvobject>
+   <wvobject fp_name="/ARM_Testbench/in_to_de_postbuff" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">in_to_de_postbuff[31:0]</obj_property>
+      <obj_property name="ObjectShortName">in_to_de_postbuff[31:0]</obj_property>
+      <obj_property name="label">Instruction</obj_property>
+      <obj_property name="Radix">HEXRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="divider163" type="divider">
+      <obj_property name="label">Outputs</obj_property>
+      <obj_property name="DisplayName">label</obj_property>
+      <obj_property name="BkColor">#000000</obj_property>
+      <obj_property name="TextColor">230 230 230</obj_property>
+   </wvobject>
+   <wvobject fp_name="/ARM_Testbench/reg1_to_reg" type="array" db_ref_id="1">
+      <obj_property name="DisplayName">label</obj_property>
+      <obj_property name="ElementShortName">reg1_to_reg[4:0]</obj_property>
+      <obj_property name="ObjectShortName">reg1_to_reg[4:0]</obj_property>
+      <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+      <obj_property name="label">Register 1</obj_property>
+   </wvobject>
+   <wvobject fp_name="/ARM_Testbench/reg1data_to_ex_prebuff" type="array" db_ref_id="1">
+      <obj_property name="DisplayName">label</obj_property>
+      <obj_property name="ElementShortName">reg1data_to_ex_prebuff[63:0]</obj_property>
+      <obj_property name="ObjectShortName">reg1data_to_ex_prebuff[63:0]</obj_property>
+      <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+      <obj_property name="label">Register 1 Data</obj_property>
+   </wvobject>
+   <wvobject fp_name="/ARM_Testbench/reg2_to_reg" type="array" db_ref_id="1">
+      <obj_property name="DisplayName">label</obj_property>
+      <obj_property name="ElementShortName">reg2_to_reg[4:0]</obj_property>
+      <obj_property name="ObjectShortName">reg2_to_reg[4:0]</obj_property>
+      <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+      <obj_property name="label">Register 2</obj_property>
+   </wvobject>
+   <wvobject fp_name="/ARM_Testbench/reg2data_to_ex_prebuff" type="array" db_ref_id="1">
+      <obj_property name="DisplayName">label</obj_property>
+      <obj_property name="ElementShortName">reg2data_to_ex_prebuff[63:0]</obj_property>
+      <obj_property name="ObjectShortName">reg2data_to_ex_prebuff[63:0]</obj_property>
+      <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+      <obj_property name="label">Register 2 Data</obj_property>
+   </wvobject>
+   <wvobject fp_name="/ARM_Testbench/se_to_ex_prebuff" type="array" db_ref_id="1">
+      <obj_property name="DisplayName">label</obj_property>
+      <obj_property name="ElementShortName">se_to_ex_prebuff[63:0]</obj_property>
+      <obj_property name="ObjectShortName">se_to_ex_prebuff[63:0]</obj_property>
+      <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+      <obj_property name="label">Sign Extend</obj_property>
+   </wvobject>
+   <wvobject fp_name="/ARM_Testbench/wb_to_ex_prebuff" type="array" db_ref_id="1">
+      <obj_property name="DisplayName">label</obj_property>
+      <obj_property name="ElementShortName">wb_to_ex_prebuff[4:0]</obj_property>
+      <obj_property name="ObjectShortName">wb_to_ex_prebuff[4:0]</obj_property>
+      <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+      <obj_property name="label">Writeback Register</obj_property>
+   </wvobject>
+   <wvobject fp_name="divider161" type="divider">
+      <obj_property name="label">Output Options</obj_property>
+      <obj_property name="DisplayName">label</obj_property>
+      <obj_property name="BkColor">#000000</obj_property>
+      <obj_property name="TextColor">230 230 230</obj_property>
+   </wvobject>
+   <wvobject fp_name="/ARM_Testbench/ub_to_ex_prebuff" type="logic" db_ref_id="1">
+      <obj_property name="DisplayName">label</obj_property>
+      <obj_property name="ElementShortName">ub_to_ex_prebuff</obj_property>
+      <obj_property name="ObjectShortName">ub_to_ex_prebuff</obj_property>
+      <obj_property name="label">Unconditional Branch</obj_property>
+   </wvobject>
+   <wvobject fp_name="/ARM_Testbench/br_to_ex_prebuff" type="logic" db_ref_id="1">
+      <obj_property name="DisplayName">label</obj_property>
+      <obj_property name="ElementShortName">br_to_ex_prebuff</obj_property>
+      <obj_property name="ObjectShortName">br_to_ex_prebuff</obj_property>
+      <obj_property name="label">Branch</obj_property>
+   </wvobject>
+   <wvobject fp_name="/ARM_Testbench/mr_to_ex_prebuff" type="logic" db_ref_id="1">
+      <obj_property name="DisplayName">label</obj_property>
+      <obj_property name="ElementShortName">mr_to_ex_prebuff</obj_property>
+      <obj_property name="ObjectShortName">mr_to_ex_prebuff</obj_property>
+      <obj_property name="label">Memory Read</obj_property>
+   </wvobject>
+   <wvobject fp_name="/ARM_Testbench/mw_to_ex_prebuff" type="logic" db_ref_id="1">
+      <obj_property name="DisplayName">label</obj_property>
+      <obj_property name="ElementShortName">mw_to_ex_prebuff</obj_property>
+      <obj_property name="ObjectShortName">mw_to_ex_prebuff</obj_property>
+      <obj_property name="label">Memory Write</obj_property>
+   </wvobject>
+   <wvobject fp_name="/ARM_Testbench/rw_to_ex_prebuff" type="logic" db_ref_id="1">
+      <obj_property name="DisplayName">label</obj_property>
+      <obj_property name="ElementShortName">rw_to_ex_prebuff</obj_property>
+      <obj_property name="ObjectShortName">rw_to_ex_prebuff</obj_property>
+      <obj_property name="label">Register Write</obj_property>
+   </wvobject>
+   <wvobject fp_name="/ARM_Testbench/aluop_to_ex_prebuff" type="array" db_ref_id="1">
+      <obj_property name="DisplayName">label</obj_property>
+      <obj_property name="ElementShortName">aluop_to_ex_prebuff[3:0]</obj_property>
+      <obj_property name="ObjectShortName">aluop_to_ex_prebuff[3:0]</obj_property>
+      <obj_property name="Radix">BINARYRADIX</obj_property>
+      <obj_property name="label">ALUOPs</obj_property>
+   </wvobject>
+   <wvobject fp_name="divider108" type="divider">
+      <obj_property name="label">Execute</obj_property>
+      <obj_property name="DisplayName">label</obj_property>
+      <obj_property name="BkColor">128 128 255</obj_property>
+      <obj_property name="TextColor">230 230 230</obj_property>
+   </wvobject>
+   <wvobject fp_name="divider164" type="divider">
+      <obj_property name="label">Inputs</obj_property>
+      <obj_property name="DisplayName">label</obj_property>
+      <obj_property name="BkColor">#000000</obj_property>
+      <obj_property name="TextColor">230 230 230</obj_property>
+   </wvobject>
+   <wvobject fp_name="/ARM_Testbench/pc_to_ex_postbuff" type="array" db_ref_id="1">
+      <obj_property name="DisplayName">label</obj_property>
+      <obj_property name="ElementShortName">pc_to_ex_postbuff[31:0]</obj_property>
+      <obj_property name="ObjectShortName">pc_to_ex_postbuff[31:0]</obj_property>
+      <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+      <obj_property name="label">Program Counter</obj_property>
+   </wvobject>
+   <wvobject fp_name="/ARM_Testbench/reg1data_to_ex_postbuff" type="array" db_ref_id="1">
+      <obj_property name="DisplayName">label</obj_property>
+      <obj_property name="ElementShortName">reg1data_to_ex_postbuff[63:0]</obj_property>
+      <obj_property name="ObjectShortName">reg1data_to_ex_postbuff[63:0]</obj_property>
+      <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+      <obj_property name="label">Register 1 Data</obj_property>
+   </wvobject>
+   <wvobject fp_name="/ARM_Testbench/reg2data_to_ex_postbuff" type="array" db_ref_id="1">
+      <obj_property name="DisplayName">label</obj_property>
+      <obj_property name="ElementShortName">reg2data_to_ex_postbuff[63:0]</obj_property>
+      <obj_property name="ObjectShortName">reg2data_to_ex_postbuff[63:0]</obj_property>
+      <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+      <obj_property name="label">Register 2 Data</obj_property>
+   </wvobject>
+   <wvobject fp_name="/ARM_Testbench/se_to_ex_postbuff" type="array" db_ref_id="1">
+      <obj_property name="DisplayName">label</obj_property>
+      <obj_property name="ElementShortName">se_to_ex_postbuff[63:0]</obj_property>
+      <obj_property name="ObjectShortName">se_to_ex_postbuff[63:0]</obj_property>
+      <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+      <obj_property name="label">Sign Extend</obj_property>
+   </wvobject>
+   <wvobject fp_name="/ARM_Testbench/wb_to_ex_postbuff" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">wb_to_ex_postbuff[4:0]</obj_property>
+      <obj_property name="ObjectShortName">wb_to_ex_postbuff[4:0]</obj_property>
+      <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="divider162" type="divider">
+      <obj_property name="label">Input Options</obj_property>
+      <obj_property name="DisplayName">label</obj_property>
+      <obj_property name="BkColor">#000000</obj_property>
+      <obj_property name="TextColor">230 230 230</obj_property>
+   </wvobject>
+   <wvobject fp_name="/ARM_Testbench/ub_to_ex_postbuff" type="logic" db_ref_id="1">
+      <obj_property name="DisplayName">label</obj_property>
+      <obj_property name="ElementShortName">ub_to_ex_postbuff</obj_property>
+      <obj_property name="ObjectShortName">ub_to_ex_postbuff</obj_property>
+      <obj_property name="label">ub_to_ex_postbuff</obj_property>
+   </wvobject>
+   <wvobject fp_name="/ARM_Testbench/br_to_ex_postbuff" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">br_to_ex_postbuff</obj_property>
+      <obj_property name="ObjectShortName">br_to_ex_postbuff</obj_property>
+   </wvobject>
+   <wvobject fp_name="/ARM_Testbench/mr_to_ex_postbuff" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">mr_to_ex_postbuff</obj_property>
+      <obj_property name="ObjectShortName">mr_to_ex_postbuff</obj_property>
+   </wvobject>
+   <wvobject fp_name="/ARM_Testbench/mw_to_ex_postbuff" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">mw_to_ex_postbuff</obj_property>
+      <obj_property name="ObjectShortName">mw_to_ex_postbuff</obj_property>
+   </wvobject>
+   <wvobject fp_name="/ARM_Testbench/rw_to_ex_postbuff" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">rw_to_ex_postbuff</obj_property>
+      <obj_property name="ObjectShortName">rw_to_ex_postbuff</obj_property>
+   </wvobject>
+   <wvobject fp_name="/ARM_Testbench/aluop_to_ex_postbuff" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">aluop_to_ex_postbuff[3:0]</obj_property>
+      <obj_property name="ObjectShortName">aluop_to_ex_postbuff[3:0]</obj_property>
+      <obj_property name="Radix">BINARYRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="divider163" type="divider">
+      <obj_property name="label">Outputs</obj_property>
+      <obj_property name="DisplayName">label</obj_property>
+      <obj_property name="BkColor">#000000</obj_property>
+      <obj_property name="TextColor">230 230 230</obj_property>
+   </wvobject>
+   <wvobject fp_name="/ARM_Testbench/adr_to_mem_prebuff" type="array" db_ref_id="1">
+      <obj_property name="DisplayName">label</obj_property>
+      <obj_property name="ElementShortName">adr_to_mem_prebuff[63:0]</obj_property>
+      <obj_property name="ObjectShortName">adr_to_mem_prebuff[63:0]</obj_property>
+      <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+      <obj_property name="label">ALU Result</obj_property>
+   </wvobject>
+   <wvobject fp_name="/ARM_Testbench/npc_to_pc" type="array" db_ref_id="1">
+      <obj_property name="DisplayName">label</obj_property>
+      <obj_property name="ElementShortName">npc_to_pc[31:0]</obj_property>
+      <obj_property name="ObjectShortName">npc_to_pc[31:0]</obj_property>
+      <obj_property name="Radix">HEXRADIX</obj_property>
+      <obj_property name="label">Jump-Altered Program Counter</obj_property>
+   </wvobject>
+   <wvobject fp_name="/ARM_Testbench/wb_to_mem_prebuff" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">wb_to_mem_prebuff[4:0]</obj_property>
+      <obj_property name="ObjectShortName">wb_to_mem_prebuff[4:0]</obj_property>
+      <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/ARM_Testbench/read_to_mem_prebuff" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">read_to_mem_prebuff</obj_property>
+      <obj_property name="ObjectShortName">read_to_mem_prebuff</obj_property>
+   </wvobject>
+   <wvobject fp_name="/ARM_Testbench/write_to_mem_prebuff" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">write_to_mem_prebuff</obj_property>
+      <obj_property name="ObjectShortName">write_to_mem_prebuff</obj_property>
+   </wvobject>
+   <wvobject fp_name="divider109" type="divider">
+      <obj_property name="label">Memory</obj_property>
+      <obj_property name="DisplayName">label</obj_property>
+      <obj_property name="BkColor">128 128 255</obj_property>
+      <obj_property name="TextColor">230 230 230</obj_property>
+   </wvobject>
+   <wvobject fp_name="divider164" type="divider">
+      <obj_property name="label">Inputs</obj_property>
+      <obj_property name="DisplayName">label</obj_property>
+      <obj_property name="BkColor">#000000</obj_property>
+      <obj_property name="TextColor">230 230 230</obj_property>
+   </wvobject>
+   <wvobject fp_name="/ARM_Testbench/adr_to_mem_postbuff" type="array" db_ref_id="1">
+      <obj_property name="DisplayName">label</obj_property>
+      <obj_property name="ElementShortName">adr_to_mem_postbuff[63:0]</obj_property>
+      <obj_property name="ObjectShortName">adr_to_mem_postbuff[63:0]</obj_property>
+      <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+      <obj_property name="label">ALU Result</obj_property>
+   </wvobject>
+   <wvobject fp_name="/ARM_Testbench/wb_to_mem_postbuff" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">wb_to_mem_postbuff[4:0]</obj_property>
+      <obj_property name="ObjectShortName">wb_to_mem_postbuff[4:0]</obj_property>
+      <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/ARM_Testbench/read_to_mem_postbuff" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">read_to_mem_postbuff</obj_property>
+      <obj_property name="ObjectShortName">read_to_mem_postbuff</obj_property>
+   </wvobject>
+   <wvobject fp_name="/ARM_Testbench/write_to_mem_postbuff" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">write_to_mem_postbuff</obj_property>
+      <obj_property name="ObjectShortName">write_to_mem_postbuff</obj_property>
+   </wvobject>
+   <wvobject fp_name="divider163" type="divider">
+      <obj_property name="label">Outputs</obj_property>
+      <obj_property name="DisplayName">label</obj_property>
+      <obj_property name="BkColor">#000000</obj_property>
+      <obj_property name="TextColor">230 230 230</obj_property>
+   </wvobject>
+   <wvobject fp_name="/ARM_Testbench/data_to_reg_prebuff" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">data_to_reg_prebuff[63:0]</obj_property>
+      <obj_property name="ObjectShortName">data_to_reg_prebuff[63:0]</obj_property>
+      <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/ARM_Testbench/wb_to_reg_prebuff" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">wb_to_reg_prebuff[4:0]</obj_property>
+      <obj_property name="ObjectShortName">wb_to_reg_prebuff[4:0]</obj_property>
+      <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/ARM_Testbench/iw_to_reg_prebuff" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">iw_to_reg_prebuff</obj_property>
+      <obj_property name="ObjectShortName">iw_to_reg_prebuff</obj_property>
+   </wvobject>
+   <wvobject fp_name="divider180" type="divider">
+      <obj_property name="label">Post-Outputs</obj_property>
+      <obj_property name="DisplayName">label</obj_property>
+      <obj_property name="BkColor">#000000</obj_property>
+      <obj_property name="TextColor">230 230 230</obj_property>
+   </wvobject>
+   <wvobject fp_name="/ARM_Testbench/data_to_reg_postbuff" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">data_to_reg_postbuff[63:0]</obj_property>
+      <obj_property name="ObjectShortName">data_to_reg_postbuff[63:0]</obj_property>
+      <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/ARM_Testbench/wb_to_reg_postbuff" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">wb_to_reg_postbuff[4:0]</obj_property>
+      <obj_property name="ObjectShortName">wb_to_reg_postbuff[4:0]</obj_property>
+      <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/ARM_Testbench/iw_to_reg_postbuff" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">iw_to_reg_postbuff</obj_property>
+      <obj_property name="ObjectShortName">iw_to_reg_postbuff</obj_property>
+   </wvobject>
+   <wvobject fp_name="divider109" type="divider">
+      <obj_property name="label">filler</obj_property>
+      <obj_property name="DisplayName">label</obj_property>
+      <obj_property name="BkColor">128 128 255</obj_property>
+      <obj_property name="TextColor">230 230 230</obj_property>
+   </wvobject>
+   <wvobject fp_name="/ARM_Testbench/regMem/regFile" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">regFile[0:31,63:0]</obj_property>
+      <obj_property name="ObjectShortName">regFile[0:31,63:0]</obj_property>
+      <wvobject fp_name="/ARM_Testbench/regMem/regFile[0]" type="array" db_ref_id="1">
+         <obj_property name="ElementShortName">[0,63:0]</obj_property>
+         <obj_property name="ObjectShortName">regFile[0,63:0]</obj_property>
+         <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+      </wvobject>
+      <wvobject fp_name="/ARM_Testbench/regMem/regFile[1]" type="array" db_ref_id="1">
+         <obj_property name="ElementShortName">[1,63:0]</obj_property>
+         <obj_property name="ObjectShortName">regFile[1,63:0]</obj_property>
+         <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+      </wvobject>
+      <wvobject fp_name="/ARM_Testbench/regMem/regFile[2]" type="array" db_ref_id="1">
+         <obj_property name="ElementShortName">[2,63:0]</obj_property>
+         <obj_property name="ObjectShortName">regFile[2,63:0]</obj_property>
+         <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+      </wvobject>
+      <wvobject fp_name="/ARM_Testbench/regMem/regFile[3]" type="array" db_ref_id="1">
+         <obj_property name="ElementShortName">[3,63:0]</obj_property>
+         <obj_property name="ObjectShortName">regFile[3,63:0]</obj_property>
+         <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+      </wvobject>
+      <wvobject fp_name="/ARM_Testbench/regMem/regFile[4]" type="array" db_ref_id="1">
+         <obj_property name="ElementShortName">[4,63:0]</obj_property>
+         <obj_property name="ObjectShortName">regFile[4,63:0]</obj_property>
+         <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+      </wvobject>
+      <wvobject fp_name="/ARM_Testbench/regMem/regFile[5]" type="array" db_ref_id="1">
+         <obj_property name="ElementShortName">[5,63:0]</obj_property>
+         <obj_property name="ObjectShortName">regFile[5,63:0]</obj_property>
+         <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+      </wvobject>
+      <wvobject fp_name="/ARM_Testbench/regMem/regFile[6]" type="array" db_ref_id="1">
+         <obj_property name="ElementShortName">[6,63:0]</obj_property>
+         <obj_property name="ObjectShortName">regFile[6,63:0]</obj_property>
+         <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+      </wvobject>
+      <wvobject fp_name="/ARM_Testbench/regMem/regFile[7]" type="array" db_ref_id="1">
+         <obj_property name="ElementShortName">[7,63:0]</obj_property>
+         <obj_property name="ObjectShortName">regFile[7,63:0]</obj_property>
+         <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+      </wvobject>
+      <wvobject fp_name="/ARM_Testbench/regMem/regFile[8]" type="array" db_ref_id="1">
+         <obj_property name="ElementShortName">[8,63:0]</obj_property>
+         <obj_property name="ObjectShortName">regFile[8,63:0]</obj_property>
+         <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+      </wvobject>
+      <wvobject fp_name="/ARM_Testbench/regMem/regFile[9]" type="array" db_ref_id="1">
+         <obj_property name="ElementShortName">[9,63:0]</obj_property>
+         <obj_property name="ObjectShortName">regFile[9,63:0]</obj_property>
+         <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+      </wvobject>
+      <wvobject fp_name="/ARM_Testbench/regMem/regFile[10]" type="array" db_ref_id="1">
+         <obj_property name="ElementShortName">[10,63:0]</obj_property>
+         <obj_property name="ObjectShortName">regFile[10,63:0]</obj_property>
+         <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+      </wvobject>
+      <wvobject fp_name="/ARM_Testbench/regMem/regFile[11]" type="array" db_ref_id="1">
+         <obj_property name="ElementShortName">[11,63:0]</obj_property>
+         <obj_property name="ObjectShortName">regFile[11,63:0]</obj_property>
+         <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+      </wvobject>
+      <wvobject fp_name="/ARM_Testbench/regMem/regFile[12]" type="array" db_ref_id="1">
+         <obj_property name="ElementShortName">[12,63:0]</obj_property>
+         <obj_property name="ObjectShortName">regFile[12,63:0]</obj_property>
+         <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+      </wvobject>
+      <wvobject fp_name="/ARM_Testbench/regMem/regFile[13]" type="array" db_ref_id="1">
+         <obj_property name="ElementShortName">[13,63:0]</obj_property>
+         <obj_property name="ObjectShortName">regFile[13,63:0]</obj_property>
+         <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+      </wvobject>
+      <wvobject fp_name="/ARM_Testbench/regMem/regFile[14]" type="array" db_ref_id="1">
+         <obj_property name="ElementShortName">[14,63:0]</obj_property>
+         <obj_property name="ObjectShortName">regFile[14,63:0]</obj_property>
+         <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+      </wvobject>
+      <wvobject fp_name="/ARM_Testbench/regMem/regFile[15]" type="array" db_ref_id="1">
+         <obj_property name="ElementShortName">[15,63:0]</obj_property>
+         <obj_property name="ObjectShortName">regFile[15,63:0]</obj_property>
+         <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+      </wvobject>
+      <wvobject fp_name="/ARM_Testbench/regMem/regFile[16]" type="array" db_ref_id="1">
+         <obj_property name="ElementShortName">[16,63:0]</obj_property>
+         <obj_property name="ObjectShortName">regFile[16,63:0]</obj_property>
+         <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+      </wvobject>
+      <wvobject fp_name="/ARM_Testbench/regMem/regFile[17]" type="array" db_ref_id="1">
+         <obj_property name="ElementShortName">[17,63:0]</obj_property>
+         <obj_property name="ObjectShortName">regFile[17,63:0]</obj_property>
+         <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+      </wvobject>
+      <wvobject fp_name="/ARM_Testbench/regMem/regFile[18]" type="array" db_ref_id="1">
+         <obj_property name="ElementShortName">[18,63:0]</obj_property>
+         <obj_property name="ObjectShortName">regFile[18,63:0]</obj_property>
+         <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+      </wvobject>
+      <wvobject fp_name="/ARM_Testbench/regMem/regFile[19]" type="array" db_ref_id="1">
+         <obj_property name="ElementShortName">[19,63:0]</obj_property>
+         <obj_property name="ObjectShortName">regFile[19,63:0]</obj_property>
+         <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+      </wvobject>
+      <wvobject fp_name="/ARM_Testbench/regMem/regFile[20]" type="array" db_ref_id="1">
+         <obj_property name="ElementShortName">[20,63:0]</obj_property>
+         <obj_property name="ObjectShortName">regFile[20,63:0]</obj_property>
+         <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+      </wvobject>
+      <wvobject fp_name="/ARM_Testbench/regMem/regFile[21]" type="array" db_ref_id="1">
+         <obj_property name="ElementShortName">[21,63:0]</obj_property>
+         <obj_property name="ObjectShortName">regFile[21,63:0]</obj_property>
+         <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+      </wvobject>
+      <wvobject fp_name="/ARM_Testbench/regMem/regFile[22]" type="array" db_ref_id="1">
+         <obj_property name="ElementShortName">[22,63:0]</obj_property>
+         <obj_property name="ObjectShortName">regFile[22,63:0]</obj_property>
+         <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+      </wvobject>
+      <wvobject fp_name="/ARM_Testbench/regMem/regFile[23]" type="array" db_ref_id="1">
+         <obj_property name="ElementShortName">[23,63:0]</obj_property>
+         <obj_property name="ObjectShortName">regFile[23,63:0]</obj_property>
+         <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+      </wvobject>
+      <wvobject fp_name="/ARM_Testbench/regMem/regFile[24]" type="array" db_ref_id="1">
+         <obj_property name="ElementShortName">[24,63:0]</obj_property>
+         <obj_property name="ObjectShortName">regFile[24,63:0]</obj_property>
+         <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+      </wvobject>
+      <wvobject fp_name="/ARM_Testbench/regMem/regFile[25]" type="array" db_ref_id="1">
+         <obj_property name="ElementShortName">[25,63:0]</obj_property>
+         <obj_property name="ObjectShortName">regFile[25,63:0]</obj_property>
+         <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+      </wvobject>
+      <wvobject fp_name="/ARM_Testbench/regMem/regFile[26]" type="array" db_ref_id="1">
+         <obj_property name="ElementShortName">[26,63:0]</obj_property>
+         <obj_property name="ObjectShortName">regFile[26,63:0]</obj_property>
+         <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+      </wvobject>
+      <wvobject fp_name="/ARM_Testbench/regMem/regFile[27]" type="array" db_ref_id="1">
+         <obj_property name="ElementShortName">[27,63:0]</obj_property>
+         <obj_property name="ObjectShortName">regFile[27,63:0]</obj_property>
+         <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+      </wvobject>
+      <wvobject fp_name="/ARM_Testbench/regMem/regFile[28]" type="array" db_ref_id="1">
+         <obj_property name="ElementShortName">[28,63:0]</obj_property>
+         <obj_property name="ObjectShortName">regFile[28,63:0]</obj_property>
+         <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+      </wvobject>
+      <wvobject fp_name="/ARM_Testbench/regMem/regFile[29]" type="array" db_ref_id="1">
+         <obj_property name="ElementShortName">[29,63:0]</obj_property>
+         <obj_property name="ObjectShortName">regFile[29,63:0]</obj_property>
+         <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+      </wvobject>
+      <wvobject fp_name="/ARM_Testbench/regMem/regFile[30]" type="array" db_ref_id="1">
+         <obj_property name="ElementShortName">[30,63:0]</obj_property>
+         <obj_property name="ObjectShortName">regFile[30,63:0]</obj_property>
+         <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+      </wvobject>
+      <wvobject fp_name="/ARM_Testbench/regMem/regFile[31]" type="array" db_ref_id="1">
+         <obj_property name="ElementShortName">[31,63:0]</obj_property>
+         <obj_property name="ObjectShortName">regFile[31,63:0]</obj_property>
+         <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+      </wvobject>
+   </wvobject>
+</wave_config>
