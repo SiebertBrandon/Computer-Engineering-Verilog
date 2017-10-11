@@ -1,8 +1,8 @@
 # TCNJ - Verlog Projects
 
-[![GitHub license](https://img.shields.io/badge/license-MIT-blue.svg)]
-[![GitHub license](https://img.shields.io/badge/language-Verilog-orange.svg)]
-[![GitHub license](https://img.shields.io/badge/language-Java-orange.svg)]
+[![GitHub license](https://img.shields.io/badge/license-MIT-blue.svg)]()
+[![GitHub license](https://img.shields.io/badge/language-Verilog-orange.svg)]()
+[![GitHub license](https://img.shields.io/badge/language-Java-orange.svg)]()
 
 ## What are these?
 
