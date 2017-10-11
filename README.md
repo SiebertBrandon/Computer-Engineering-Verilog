@@ -27,36 +27,36 @@
 ## Project Summaries
 
   ### Fall 2017
+  
+  #### 64-Bit Ripple Carry Adder
 
-    #### 64-Bit Ripple Carry Adder
+  Description
 
-    Description
+  #### ARM ALU Behavioral Implementation
 
-    #### ARM ALU Behavioral Implementation
+  Description
 
-    Description
+  #### ARM ALU Synthesizable Implementation
 
-    #### ARM ALU Synthesizable Implementation
+  Description
 
-    Description
+  #### Custom Instruction Processor
 
-    #### Custom Instruction Processor
-
-    Description
+  Description
 
   ### Spring 2018
 
-    #### Java Cache Simulation
+  #### Java Cache Simulation
 
-    Description
+  Description
 
-    #### LEGv8 ARM with Pipelining
+  #### LEGv8 ARM with Pipelining
 
-    Description
+  Description
 
-    #### LEGv8 ARM with Pipelining and Hazard Detection
+  #### LEGv8 ARM with Pipelining and Hazard Detection
 
-    Description
+  Description
 
 ## License
 
