@@ -1,25 +1,13 @@
 `timescale 1ns / 1ps
 
 ////////////////////////////////////////////////////////////////////////////////
-// Company: 
-// Engineer:
+// Company: The College of New Jersey
+// Engineer: Brandon Siebert, Jason Evans
 //
-// Create Date:   18:05:22 10/02/2016
-// Design Name:   cla_adder
-// Module Name:   H:/363-ComputerEngineeringLab1/Lab1/ModelA/modelA/cla_adder_test.v
-// Project Name:  modelA
-// Target Device:  
-// Tool versions:  
-// Description: 
-//
-// Verilog Test Fixture created by ISE for module: cla_adder
-//
-// Dependencies:
-// 
-// Revision:
-// Revision 0.01 - File Created
-// Additional Comments:
-// 
+// Create Date:	  18:05:22 10/02/2016
+// Design Name:	  cla_adder
+// Module Name:	  CLA Adder Test Bench
+// Project Name:  Carry Look Ahead Adder
 ////////////////////////////////////////////////////////////////////////////////
 
 module cla_adder_test;
@@ -34,7 +22,8 @@ module cla_adder_test;
 	wire COUT;
 
 	// Instantiate the Unit Under Test (UUT)
-	cla_adder uut (
+	cla_adder uut 
+	(
 		.A(A), 
 		.B(B), 
 		.CIN(CIN), 
@@ -65,10 +54,6 @@ module cla_adder_test;
 
 		// Wait 100 ns for global reset to finish
 		#100;
-        
-		// Add stimulus here
-
 	end
-      
 endmodule
 

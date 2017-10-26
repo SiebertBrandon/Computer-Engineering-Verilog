@@ -1,29 +1,29 @@
 `timescale 1ns / 1ps
-//////////////////////////////////////////////////////////////////////////////////
-// Company: 
-// Engineer: 
-// 
-// Create Date:    17:26:56 10/02/2016 
-// Design Name: 
-// Module Name:    lookaheadadder 
-// Project Name: 
-// Target Devices: 
-// Tool versions: 
-// Description: 
+////////////////////////////////////////////////////////////////////////////////
+// Company: The College of New Jersey
+// Engineer: Brandon Siebert, Jason Evans
 //
-// Dependencies: 
-//
-// Revision: 
-// Revision 0.01 - File Created
-// Additional Comments: 
-//
-//////////////////////////////////////////////////////////////////////////////////
+// Create Date:	  18:05:22 10/02/2016
+// Design Name:	  lookaheadadder
+// Module Name:	  CLA Adder Implementation
+// Project Name:  Carry Look Ahead Adder
+////////////////////////////////////////////////////////////////////////////////
 module lookaheadadder (
-   input [63:0] A,
-   input [63:0] B,
-   output [63:0] SUM
-   );
+
+	// First 64-bit input
+	input [63:0] A,
+	
+	// Second 64-bit input
+	input [63:0] B,
+	
+	// Output with add result
+	output [63:0] SUM
+	);
+	
+	// Wire used for carry bit between modules
 	wire [31:0] CRRY;
+	
+	// Instantiation and connection of 32 adder modules chained together
 	cla_adder add0 (.A(A[1:0]), .B(B[1:0]), .CIN(1'b0), .SUM(SUM[1:0]), .COUT(CRRY[0]));
 	cla_adder add1 (.A(A[3:2]), .B(B[3:2]), .CIN(CRRY[0]), .SUM(SUM[3:2]), .COUT(CRRY[1]));
 	cla_adder add2 (.A(A[5:4]), .B(B[5:4]), .CIN(CRRY[1]), .SUM(SUM[5:4]), .COUT(CRRY[2]));
@@ -57,13 +57,13 @@ module lookaheadadder (
 	cla_adder add30 (.A(A[61:60]), .B(B[61:60]), .CIN(CRRY[29]), .SUM(SUM[61:60]), .COUT(CRRY[30]));
 	cla_adder add31 (.A(A[63:62]), .B(B[63:62]), .CIN(CRRY[30]), .SUM(SUM[63:62]), .COUT(CRRY[31]));
 
-
 endmodule
 
+// Implementation of a single 
 module cla_adder (
 	input [1:0] A,
 	input [1:0] B,
-	input	CIN,
+	input CIN,
 	output [1:0] SUM,
 	output COUT
 	);

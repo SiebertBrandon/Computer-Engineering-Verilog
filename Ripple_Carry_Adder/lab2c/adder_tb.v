@@ -4,15 +4,15 @@
 // Company: 
 // Engineer:
 //
-// Create Date:   18:43:59 10/02/2016
-// Design Name:   Behavioral_Adder
-// Module Name:   H:/363-ComputerEngineeringLab1/Lab1/ModelA/modelA/Behavioral_Adder_Test.v
-// Project Name:  modelA
+// Create Date:   19:31:13 09/27/2016
+// Design Name:   adder
+// Module Name:   H:/lab2c/adder_tb.v
+// Project Name:  lab2c
 // Target Device:  
 // Tool versions:  
 // Description: 
 //
-// Verilog Test Fixture created by ISE for module: Behavioral_Adder
+// Verilog Test Fixture created by ISE for module: adder
 //
 // Dependencies:
 // 
@@ -22,7 +22,7 @@
 // 
 ////////////////////////////////////////////////////////////////////////////////
 
-module Behavioral_Adder_Test;
+module adder_tb;
 
 	// Inputs
 	reg [63:0] A;
@@ -32,7 +32,7 @@ module Behavioral_Adder_Test;
 	wire [63:0] SUM;
 
 	// Instantiate the Unit Under Test (UUT)
-	Behavioral_Adder uut (
+	adder uut (
 		.A(A), 
 		.B(B), 
 		.SUM(SUM)
@@ -40,14 +40,15 @@ module Behavioral_Adder_Test;
 
 	initial begin
 		// Initialize Inputs
-		A = 64'h7FFFFFFFFFFFFFFF;
-		B = 64'h7FFFFFFFFFFFFFFF;
+		A = 0;
+		B = 0;
 
 		// Wait 100 ns for global reset to finish
 		#100;
         
 		// Add stimulus here
-
+		A = 64'b00000111001110001101011;
+		B = 64'b11111001011110001110100;
 	end
       
 endmodule

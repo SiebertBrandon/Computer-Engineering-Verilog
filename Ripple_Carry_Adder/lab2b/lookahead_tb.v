@@ -4,15 +4,15 @@
 // Company: 
 // Engineer:
 //
-// Create Date:   18:39:27 10/02/2016
-// Design Name:   lookaheadadder
-// Module Name:   H:/363-ComputerEngineeringLab1/Lab1/ModelA/modelA/FUCK_RIPPLE_CARRIES.v
-// Project Name:  modelA
+// Create Date:   18:56:24 09/27/2016
+// Design Name:   lookahead64
+// Module Name:   H:/lab2b/lookahead_tb.v
+// Project Name:  lab2b
 // Target Device:  
 // Tool versions:  
 // Description: 
 //
-// Verilog Test Fixture created by ISE for module: lookaheadadder
+// Verilog Test Fixture created by ISE for module: lookahead64
 //
 // Dependencies:
 // 
@@ -22,32 +22,34 @@
 // 
 ////////////////////////////////////////////////////////////////////////////////
 
-module FUCK_RIPPLE_CARRIES;
+module lookahead_tb;
 
 	// Inputs
-	reg [63:0] A;
-	reg [63:0] B;
-
-	// Outputs
-	wire [63:0] SUM;
+	reg [63:0] a;
+	reg [63:0] b;
+	
+	//outputs
+	wire [63:0] sum;
 
 	// Instantiate the Unit Under Test (UUT)
-	lookaheadadder uut (
-		.A(A), 
-		.B(B), 
-		.SUM(SUM)
+	lookahead64 uut (
+		.a(a), 
+		.b(b), 
+		.sum(sum)
 	);
 
 	initial begin
 		// Initialize Inputs
-		A = 64'h7FFFFFFFFFFFFFFF;
-		B = 64'h7FFFFFFFFFFFFFFF;
+		a = 0;
+		b = 0;
+		
 
 		// Wait 100 ns for global reset to finish
 		#100;
         
 		// Add stimulus here
-
+		a = 64'b11010001010111110111111;
+		b = 64'b00101111100100100100110;
 	end
       
 endmodule
