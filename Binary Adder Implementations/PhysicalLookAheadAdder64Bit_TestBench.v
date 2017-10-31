@@ -1,0 +1,59 @@
+`timescale 1ns / 1ps
+
+////////////////////////////////////////////////////////////////////////////////
+// Company: 
+// Engineer:
+//
+// Create Date:   18:39:27 10/02/2016
+// Design Name:   lookaheadadder
+// Module Name:   H:/363-ComputerEngineeringLab1/Lab1/ModelA/modelA/ripple_carry_testbench.v
+// Project Name:  modelA
+// Target Device:  
+// Tool versions:  
+// Description: 
+//
+// Verilog Test Fixture created by ISE for module: lookaheadadder
+//
+// Dependencies:
+// 
+// Revision:
+// Revision 0.01 - File Created
+// Additional Comments:
+// 
+////////////////////////////////////////////////////////////////////////////////
+
+module ripple_carry_testbench;
+
+	// Inputs
+	reg [63:0] A;
+	reg [63:0] B;
+
+	// Outputs
+	wire [63:0] SUM;
+
+	// Instantiate the Unit Under Test (UUT)
+	lookaheadadder uut (
+		.A(A), 
+		.B(B), 
+		.SUM(SUM)
+	);
+
+	initial begin
+	
+		// Initialize Inputs
+		A = 0;
+		B = 0;
+
+		// Wait 100 ns for global reset to finish
+		#100;
+        
+		// Add stimulus here
+		A = 64'h7FFFFFFFFFFFFFFF;
+		B = 64'h7FFFFFFFFFFFFFFF;
+		
+		// Desired Output Behavior: 64'hFFFFFFFFFFFFFFFF
+		
+	end
+      
+endmodule
+

@@ -1,1 +1,0 @@
--intstyle "ise" -incremental -lib "unisims_ver" -lib "unimacro_ver" -lib "xilinxcorelib_ver" -lib "secureip" -o "H:/363-ComputerEngineeringLab1/Lab1/ModelA/modelA/Behavioral_Adder_Test_isim_beh.exe" -prj "H:/363-ComputerEngineeringLab1/Lab1/ModelA/modelA/Behavioral_Adder_Test_beh.prj" "work.Behavioral_Adder_Test" "work.glbl" 
