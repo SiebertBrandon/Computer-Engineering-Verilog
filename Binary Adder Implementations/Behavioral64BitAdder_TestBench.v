@@ -34,8 +34,9 @@ module Behavioral_Adder_Test;
 		// Wait 100 ns for global reset to finish
 		#100;
 		
-		// Desired Output Behavior: 64'hFFFFFFFFFFFFFFFF
-		
+		// Desired Output Behavior: 64'hFFFFFFFFFFFFFFFE
+		$display("%h + %h = %h", A, B, SUM);
+	  
 	end
 endmodule
 

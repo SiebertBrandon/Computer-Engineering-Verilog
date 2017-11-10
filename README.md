@@ -21,9 +21,19 @@
   - Observe the SIM Waveform
 
 #### [EDA Playground](http://www.edaplayground.com/home) Online Editor
-  - Log in with an account
-  - Testbench + Design: SystemVerilog/Verilog
-  - Tools & Simulators: Icarus Verilog 0.9.7
+
+  Some of my projects will provide a link to the online compiled version on EDA. Unfortunately, EDA Playground does not provide a visualizing tool such as ISIM, so the implementation is much harder to visualize.
+  
+##### If you would like to run or edit my code yourself, please follow these steps to edit and run your own:
+  
+  - Log in with an EDA account.
+  - In the Languages & Libraries tab on the left, select:
+	- `Testbench + Design: SystemVerilog/Verilog`
+	- `Tools & Simulators: Icarus Verilog 0.9.7`
+  - Copy all the implementation module code into the right text window.
+  - Copy all of the techbench module code into the left text window.
+  - Click `Run` at the top.
+  - Results will be in the `Log` window at the bottom.
 
 ## Project Summaries
 
