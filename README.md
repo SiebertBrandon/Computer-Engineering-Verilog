@@ -16,6 +16,7 @@
 
   - Open Xilinx
   - Load Project
+  - Select "Simulation" radio button
   - Begin a "Simulate Behavioral Model" process
   - Observe the SIM Waveform
 
@@ -26,17 +27,17 @@
 
 ## Project Summaries
 
-  ### Fall 2017
+  ### Binary Adder Implementations
   
-  #### 64-Bit Ripple Carry Adder
+  #### Behavioral Adder (64 Bit)
 
-  Description
+  The behavioral representation of a 64 Bit Adder unit. Uses a simple adding statement to take two 64 bit inputs and output a 64 bit result. Used to contrast against the other methods of creating adders. This project is broken into two files: `Behavioral64BitAdder.v` and `Behavioral64BitAdder_TestBench.v`.
 
-  #### ARM ALU Behavioral Implementation
+  #### Physical Look-Ahead Adder (64 Bit)
 
-  Description
+  This adder is a physical-like implementation of a look-ahead adder. In contrast to the Behavioral 64 Bit Adder, this project was implemented using logic gates and cascaded modules. In order to implement 64 bits for the adder, 32 cascaded modules were wired up together. This project includes three files: `PhysicalLookAheadAdder1Bit.v`, `PhysicalLookAheadAdder1Bit_TestBench.v`, `PhysicalLookAheadAdder64Bit.v`, and `PhysicalLookAheadAdder64Bit_TestBench.v`.
 
-  #### ARM ALU Synthesizable Implementation
+  #### Physical Ripple Carry Adder (64 Bit)
 
   Description
 

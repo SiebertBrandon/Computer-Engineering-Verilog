@@ -1,13 +1,14 @@
 `timescale 1ns / 1ps
+
 ////////////////////////////////////////////////////////////////////////////////
 // Company: The College of New Jersey
 // Engineer: Brandon Siebert, Jason Evans
 //
 // Create Date:	  18:05:22 10/02/2016
-// Design Name:	  64-bit Synthesizable Adder Interconnect
 // Module Name:	  Look Ahead Adder Implementation
-// Project Name:  Synthesizable Carry Look Ahead Adder
+// Project Name:  Physical Carry Look Ahead Adder
 ////////////////////////////////////////////////////////////////////////////////
+
 module lookaheadadder (
 
 	// First 64-bit input

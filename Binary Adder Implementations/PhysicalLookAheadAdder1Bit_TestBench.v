@@ -5,9 +5,8 @@
 // Engineer: Brandon Siebert, Jason Evans
 //
 // Create Date:	  18:05:22 10/02/2016
-// Design Name:	  cla_adder
-// Module Name:	  CLA Adder Test Bench
-// Project Name:  Carry Look Ahead Adder
+// Module Name:	   Look Ahead Adder Signal Module Test Bench
+// Project Name:  Physical Carry Look Ahead Adder
 ////////////////////////////////////////////////////////////////////////////////
 
 module cla_adder_test;

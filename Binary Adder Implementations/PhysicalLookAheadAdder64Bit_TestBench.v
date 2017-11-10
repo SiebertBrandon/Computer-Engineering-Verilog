@@ -1,37 +1,24 @@
 `timescale 1ns / 1ps
 
 ////////////////////////////////////////////////////////////////////////////////
-// Company: 
-// Engineer:
+// Company: The College of New Jersey
+// Engineer: Brandon Siebert, Jason Evans
 //
-// Create Date:   18:39:27 10/02/2016
-// Design Name:   lookaheadadder
-// Module Name:   H:/363-ComputerEngineeringLab1/Lab1/ModelA/modelA/ripple_carry_testbench.v
-// Project Name:  modelA
-// Target Device:  
-// Tool versions:  
-// Description: 
-//
-// Verilog Test Fixture created by ISE for module: lookaheadadder
-//
-// Dependencies:
-// 
-// Revision:
-// Revision 0.01 - File Created
-// Additional Comments:
-// 
+// Create Date:	  18:06:31 10/02/2016
+// Module Name:	  Look Ahead Adder Test Bench
+// Project Name:  Physical Carry Look Ahead Adder
 ////////////////////////////////////////////////////////////////////////////////
 
 module ripple_carry_testbench;
 
-	// Inputs
+	// Test module inputs
 	reg [63:0] A;
 	reg [63:0] B;
 
-	// Outputs
+	// Test module outputs
 	wire [63:0] SUM;
 
-	// Instantiate the Unit Under Test (UUT)
+	// Instantiate our test module
 	lookaheadadder uut (
 		.A(A), 
 		.B(B), 

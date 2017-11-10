@@ -1,15 +1,16 @@
 `timescale 1ns / 1ps
+
 ////////////////////////////////////////////////////////////////////////////////
 // Company: The College of New Jersey
 // Engineer: Brandon Siebert, Jason Evans
 //
 // Create Date:	  18:05:22 10/02/2016
-// Design Name:	  Behavioral 64-bit Adder
-// Module Name:	  CLA Adder Test Bench
-// Project Name:  Carry Look Ahead Adder
+// Module Name:	  Behavioral Adder Implementation
+// Project Name:  Behavioral 64-bit Adder
 ////////////////////////////////////////////////////////////////////////////////
 
-module Behavioral_Adder(
+module Behavioral_Adder (
+
 	// Inputs
 	input [63:0] A,
 	input [63:0] B,
@@ -20,4 +21,5 @@ module Behavioral_Adder(
 	
 	// Simple assign statement to replicate adder behavior
 	assign SUM = A + B;
+	
 endmodule

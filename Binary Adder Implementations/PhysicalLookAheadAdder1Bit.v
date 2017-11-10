@@ -1,16 +1,17 @@
+`timescale 1ns / 1ps
+
 ////////////////////////////////////////////////////////////////////////////////
 // Company: The College of New Jersey
 // Engineer: Brandon Siebert, Jason Evans
 //
-// Create Date:	  16:21:56 10/02/2016
-// Design Name:	  Single Bit Look Ahead Adder
-// Module Name:	  Look Ahead Adder Implementation
-// Project Name:  Synthesizable Carry Look Ahead Adder
+// Create Date:	  18:06:10 10/02/2016
+// Module Name:	  Look Ahead Adder Signal Module Implementation
+// Project Name:  Physical Carry Look Ahead Adder
 ////////////////////////////////////////////////////////////////////////////////
 
-module cla_adder (
+module physci (
 
-	// Inpute
+	// Inputs
 	input [1:0] A,
 	input [1:0] B,
 	input CIN,
@@ -27,8 +28,7 @@ module cla_adder (
 	wire C;
 	
 	// Assigning AND, OR, and XOR Gates
-	// Pattern:
-	// GATE_INDENTIFIER (OUTPUT, INPUT1, INPUT2),
+	// Pattern: GATE_INDENTIFIER (OUTPUT, INPUT1, INPUT2),
 	and #1
 		A1 (G[0], A[0], B[0]),
 		A2 (G[1], A[1], B[1]),
