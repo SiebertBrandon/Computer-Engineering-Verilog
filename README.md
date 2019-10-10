@@ -49,25 +49,25 @@
 
   #### Physical Ripple Carry Adder (64 Bit)
 
-  Description
-
+  This adder is a physical-like implementation of a ripple carry adder. This adder uses a cascade of single bit adders.
+  
   #### Custom Instruction Processor
 
-  Description
+  A custom instruction processor that runs a set of instructions according to this project description: https://owd.tcnj.edu/~hernande/Elc363/ELC363-La4-Fa13_1.pdf
 
   ### Spring 2018
 
   #### Java Cache Simulation
 
-  Description
+  A Java implementation of OS caching. Simulates data caching using a few different algorithms
 
   #### LEGv8 ARM with Pipelining
 
-  Description
+  A verilog implementation of a processor with the ability to run a subset of instructions called LEGv8, an educational version of the ARMv8 instruction architecture. This project also implements pipelining.
 
   #### LEGv8 ARM with Pipelining and Hazard Detection
 
-  Description
+  An addition on the already created LEGv8 processor. This version of the project implements hazard detection.
 
 ## License
 
