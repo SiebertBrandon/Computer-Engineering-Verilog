@@ -60,6 +60,9 @@
   #### Java Cache Simulation
 
   A Java implementation of OS caching. Simulates data caching using a few different algorithms
+  
+  #### LEGv8 ARM Processor
+  This processor is located in the `LEGv8 Processor` folder. Within that folder, processor modules (stages, structures, etc) are located in `CPU_Modules.v`. The two tests, `CPU_Test.v` and `Memory_Buffer_Test.v` include test code for structures found in `CPU_Modules.v`
 
   #### LEGv8 ARM with Pipelining
 
