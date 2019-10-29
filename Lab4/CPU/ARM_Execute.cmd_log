@@ -1,4 +1,0 @@
-xst -intstyle ise -ifn "H:/363-ComputerEngineeringLab1/Lab4/CPU/ARM_Execute.xst" -ofn "H:/363-ComputerEngineeringLab1/Lab4/CPU/ARM_Execute.syr" 
-xst -intstyle ise -ifn "H:/363-ComputerEngineeringLab1/Lab4/CPU/ARM_Execute.xst" -ofn "H:/363-ComputerEngineeringLab1/Lab4/CPU/ARM_Execute.syr" 
-xst -intstyle ise -ifn "H:/363-ComputerEngineeringLab1/Lab4/CPU/ARM_Execute.xst" -ofn "H:/363-ComputerEngineeringLab1/Lab4/CPU/ARM_Execute.syr" 
-xst -intstyle ise -ifn "H:/363-ComputerEngineeringLab1/Lab4/CPU/ARM_Execute.xst" -ofn "H:/363-ComputerEngineeringLab1/Lab4/CPU/ARM_Execute.syr" 
